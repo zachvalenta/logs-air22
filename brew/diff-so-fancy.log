@@ -1,0 +1,14 @@
+$ brew install diff-so-fancy
+
+Running `brew update --auto-update`...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+
+==> Downloading https://ghcr.io/v2/homebrew/core/diff-so-fancy/manifests/1.4.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/diff-so-fancy/blobs/sha256:f92baad816aa7902f5fc7e4166f6234b37f8cf800d58546b79a070d5134e857c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:f92baad816aa7902f5fc7e4166f6234b37f8cf800d58546b79a070d513
+######################################################################## 100.0%
+==> Pouring diff-so-fancy--1.4.3.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/diff-so-fancy/1.4.3: 8 files, 46.3KB
+

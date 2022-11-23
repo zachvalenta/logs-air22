@@ -1,0 +1,7 @@
+# add snippet from UM .zprofile to newly created .zprofile
+$ vim .zprofile
+
+$ source .zprofile
+
+$ which python
+/Users/zach/.pyenv/shims/python

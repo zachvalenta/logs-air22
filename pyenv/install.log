@@ -1,0 +1,61 @@
+$ brew install pyenv
+
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.19
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:8e9fa0d7d946f7c38e1a6f596aab3169d2440fccd34ec321b9a032d903ec951c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:8e9fa0d7d946f7c38e1a6f596aab3169d2440fccd34ec321b9a032d903ec951c?se=2022-11-22T05%3A30%3A00Z&sig=tofMfeCLZrhP7SVwnYAwU
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.71
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe420d49ff12bd90007415
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe420d49ff12bd90007415?se=2022-11-22T05%3A30%3A00Z&sig=231DFJ41hx0IFsvxVCi0g
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2022-10-11
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:1b264e579e31b3041a87ff91f09d5f7cc0d51fea1c83e63aee17a1b95509cbe1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1b264e579e31b3041a87ff91f09d5f7cc0d51fea1c83e63aee17a1b95509cbe1?se=2022-11-22T05%3A30%3A00Z&sig=knjGyuQZ38m%2B998iWad
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1s
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:c11b17c8b78efa46dac2d213cd7a7b3fff75f6f5e6d2ef2248345cd4a900b1c6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c11b17c8b78efa46dac2d213cd7a7b3fff75f6f5e6d2ef2248345cd4a900b1c6?se=2022-11-22T05%3A30%3A00Z&sig=GmUp%2F7LMPGNFcjiNBcp
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/manifests/0.29.2_3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/blobs/sha256:2af9bceb60b70a259f236f1d46d2bb24c4d0a4af8cd63d974dde4d76313711e0
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:2af9bceb60b70a259f236f1d46d2bb24c4d0a4af8cd63d974dde4d76313711e0?se=2022-11-22T05%3A30%3A00Z&sig=%2FwJKL%2Fr9bt3OQWNru
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:9406afa0f7aefbbef37ee193b3b17dd0e08bb2a80e99680cde732289f4819ad2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:9406afa0f7aefbbef37ee193b3b17dd0e08bb2a80e99680cde732289f4819ad2?se=2022-11-22T05%3A30%3A00Z&sig=%2FmhjyFlqNbxT%2BSTDP
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/manifests/2.3.6
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/blobs/sha256:87819c3d2531687c4d980e8bf8a5a8c7514b12a7165d8aea75f451f5bbccf5fd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:87819c3d2531687c4d980e8bf8a5a8c7514b12a7165d8aea75f451f5bbccf5fd?se=2022-11-22T05%3A30%3A00Z&sig=uU1AfE4Nj3lyRWicFIv0j
+######################################################################## 100.0%
+==> Installing dependencies for pyenv: m4, autoconf, ca-certificates, openssl@1.1, pkg-config and readline
+==> Installing pyenv dependency: m4
+==> Pouring m4--1.4.19.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/m4/1.4.19: 13 files, 742.5KB
+==> Installing pyenv dependency: autoconf
+==> Pouring autoconf--2.71.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/autoconf/2.71: 71 files, 3.2MB
+==> Installing pyenv dependency: ca-certificates
+==> Pouring ca-certificates--2022-10-11.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2022-10-11: 3 files, 225.5KB
+==> Installing pyenv dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1s.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@1.1/1.1.1s: 8,101 files, 18MB
+==> Installing pyenv dependency: pkg-config
+==> Pouring pkg-config--0.29.2_3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pkg-config/0.29.2_3: 11 files, 676.5KB
+==> Installing pyenv dependency: readline
+==> Pouring readline--8.2.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing pyenv
+==> Pouring pyenv--2.3.6.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pyenv/2.3.6: 956 files, 3MB
+==> Running `brew cleanup pyenv`...

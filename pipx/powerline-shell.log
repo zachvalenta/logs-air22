@@ -1,0 +1,20 @@
+$ pipx install powerline-shell
+
+  installed package powerline-shell 0.7.0, installed using Python 3.11.0
+  These apps are now globally available
+    - powerline-shell
+⚠️  Note: '/Users/zach/.local/bin' is not on your PATH environment variable. These apps will not be globally accessible until your PATH is
+    updated. Run `pipx ensurepath` to automatically add it, or manually modify your PATH in your shell's config file (i.e. ~/.bashrc).
+done! ✨ 🌟 ✨
+
+$ pipx ensurepath
+Success! Added /Users/zach/.local/bin to the PATH environment
+    variable.
+
+Consider adding shell completions for pipx. Run 'pipx completions'
+for instructions.
+
+You will need to open a new terminal or re-login for the PATH changes
+to take effect.
+
+Otherwise pipx is ready to go! ✨ 🌟 ✨

@@ -1,0 +1,16 @@
+brew install fd
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+
+==> Downloading https://ghcr.io/v2/homebrew/core/fd/manifests/8.5.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fd/blobs/sha256:adabea848971a0d8f572124a90e9c67b95e7553d785c616b1445094b1522b114
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:adabea848971a0d8f572124a90e9c67b95e7553d785c616b1445094b15
+######################################################################## 100.0%
+==> Pouring fd--8.5.3.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/fd/8.5.3: 13 files, 2.6MB
+

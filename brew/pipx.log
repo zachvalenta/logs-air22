@@ -1,0 +1,44 @@
+brew install pipx
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/2.5.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:726e8ec0713eb452bb744fe9147771bacc2c3713a128aaee03b6ddcc78011d1a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:726e8ec0713eb452bb744fe9147771bacc2c3713a128aaee03b6ddcc78
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.40.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:f1c794d049edb88bcfae5ea21e1059c565eb423f49d47018979af4ace704b739
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:f1c794d049edb88bcfae5ea21e1059c565eb423f49d47018979af4ace7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.2.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:b3e7a5b4f97b75c5c00915acaa4f2a2bad2349e481cdf943c88caf2f9dbc8776
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:b3e7a5b4f97b75c5c00915acaa4f2a2bad2349e481cdf943c88caf2f9d
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/manifests/3.11.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:4e968bd8f28aee189bd829c2b9feabeb8c5edd95b949cf327ea2f1f62ac76e66
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:4e968bd8f28aee189bd829c2b9feabeb8c5edd95b949cf327ea2f1f62a
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pipx/manifests/1.1.0-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pipx/blobs/sha256:20ff1598043d947aa679b8a87bc0125ac04d8599e4e6e389c9f0f436f6fbd0fe
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:20ff1598043d947aa679b8a87bc0125ac04d8599e4e6e389c9f0f436f6
+######################################################################## 100.0%
+==> Installing dependencies for pipx: mpdecimal, sqlite, xz and python@3.11
+==> Installing pipx dependency: mpdecimal
+==> Pouring mpdecimal--2.5.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpdecimal/2.5.1: 71 files, 2.2MB
+==> Installing pipx dependency: sqlite
+==> Pouring sqlite--3.40.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.40.0: 11 files, 4.0MB
+==> Installing pipx dependency: xz
+==> Pouring xz--5.2.7.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.2.7: 95 files, 1.5MB
+==> Installing pipx dependency: python@3.11
+==> Pouring python@3.11--3.11.0.arm64_monterey.bottle.tar.gz
+==> /opt/homebrew/Cellar/python@3.11/3.11.0/bin/python3.11 -m ensurepip
+==> /opt/homebrew/Cellar/python@3.11/3.11.0/bin/python3.11 -m pip install -v --no-deps --no-index --upgrade --isolated --target=/opt/homebrew/l
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.0: 3,165 files, 62MB
+==> Installing pipx
+==> Pouring pipx--1.1.0.arm64_monterey.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/pipx/1.1.0: 901 files, 11.5MB

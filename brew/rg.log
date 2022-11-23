@@ -1,0 +1,29 @@
+brew install rg
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.40
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:18b810bc5ddba9960505488662ad3b122c898ded44461e2dfb871ee32abbe0fb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:18b810bc5ddba9960505488662ad3b122c898ded44461e2dfb871ee32a
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ripgrep/manifests/13.0.0-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:d21429f4b0a97e94f87cf7588958f53b57bf067876377d6a2e7a30259fa94394
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:d21429f4b0a97e94f87cf7588958f53b57bf067876377d6a2e7a30259f
+######################################################################## 100.0%
+==> Installing dependencies for ripgrep: pcre2
+==> Installing ripgrep dependency: pcre2
+==> Pouring pcre2--10.40.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.40: 230 files, 6.1MB
+==> Installing ripgrep
+==> Pouring ripgrep--13.0.0.arm64_monterey.bottle.1.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/ripgrep/13.0.0: 13 files, 5.8MB
+==> Running `brew cleanup ripgrep`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> ripgrep
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions

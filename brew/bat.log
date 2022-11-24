@@ -1,0 +1,11 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/manifests/0.22.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/blobs/sha256:01aeb3e1ede73d04f64213e670127511eb50153875ffb5a8f708e7b7b56638fe
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:01aeb3e1ede73d04f64213e670127511eb50153875ffb5a8f708e7b7b5
+######################################################################## 100.0%
+==> Pouring bat--0.22.1.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/bat/0.22.1: 14 files, 4.7MB

@@ -1,0 +1,13 @@
+$ brew install pastel
+
+==> Downloading https://ghcr.io/v2/homebrew/core/pastel/manifests/0.9.0-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pastel/blobs/sha256:6b4511db651e18bb5b23ca8343a0f7026ce70dc7417b9d64826b52b0ad6828eb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6b4511db651e18bb5b23ca8343a0f7026ce70dc7417b9d64826b52b0ad
+######################################################################## 100.0%
+==> Pouring pastel--0.9.0.arm64_monterey.bottle.1.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/pastel/0.9.0: 12 files, 1.3MB

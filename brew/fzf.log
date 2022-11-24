@@ -1,0 +1,16 @@
+$ brew install fzf
+
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/manifests/0.35.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:7609e0c088fdc710b95226a1c5863cd967a17f30a42fd4a4591cd86d0e879a7b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:7609e0c088fdc710b95226a1c5863cd967a17f30a42fd4a4591cd86d0e
+######################################################################## 100.0%
+==> Pouring fzf--0.35.1.arm64_monterey.bottle.tar.gz
+==> Caveats
+To install useful keybindings and fuzzy completion:
+  /opt/homebrew/opt/fzf/install
+
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.35.1: 17 files, 3MB

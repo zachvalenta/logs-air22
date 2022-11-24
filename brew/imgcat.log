@@ -1,0 +1,65 @@
+$ brew install imgcat
+
+==> Tapping homebrew/cask
+Cloning into '/opt/homebrew/Library/Taps/homebrew/homebrew-cask'...
+remote: Enumerating objects: 689777, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 689777 (delta 30), reused 38 (delta 20), pack-reused 689725
+Receiving objects: 100% (689777/689777), 325.52 MiB | 5.38 MiB/s, done.
+Resolving deltas: 100% (490063/490063), done.
+Tapped 4122 casks (4,194 files, 347.5MB).
+Warning: No available formula with the name "imgcat". Did you mean imath?
+==> Searching for similarly named formulae...
+This similarly named formula was found:
+imath
+To install it, run:
+  brew install imath
+==> Searching for a previously deleted formula (in the last month)...
+Error: No previously deleted formula found.
+==> Searching taps on GitHub...
+Error: No formulae found in taps.
+
+$ brew install eddieantonio/eddieantonio/imgcat
+
+==> Tapping eddieantonio/eddieantonio
+Cloning into '/opt/homebrew/Library/Taps/eddieantonio/homebrew-eddieantonio'...
+remote: Enumerating objects: 156, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 156 (delta 3), reused 8 (delta 2), pack-reused 147
+Receiving objects: 100% (156/156), 31.14 KiB | 1.04 MiB/s, done.
+Resolving deltas: 100% (81/81), done.
+Tapped 6 formulae (19 files, 45.7KB).
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.38
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:f2be24349bfc0c8a394cf49a2894f696124678dedbef660a5619d7ba43b01bef
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:f2be24349bfc0c8a394cf49a2894f696124678dedbef660a5619d7ba43
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg/manifests/9e
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg/blobs/sha256:5d4520a90181dd83b3f58b580cd3b952cacf7f7aa035d5fd7fddd98c1e6210d1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:5d4520a90181dd83b3f58b580cd3b952cacf7f7aa035d5fd7fddd98c1e
+######################################################################## 100.0%
+==> Downloading https://github.com/eddieantonio/imgcat/releases/download/v2.5.1/imgcat-2.5.1.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27859104/05dc9ee1-e595-4fda-8a82-c1c40e713726
+######################################################################## 100.0%
+==> Installing imgcat from eddieantonio/eddieantonio
+==> Installing dependencies for eddieantonio/eddieantonio/imgcat: libpng and jpeg
+==> Installing eddieantonio/eddieantonio/imgcat dependency: libpng
+==> Pouring libpng--1.6.38.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.38: 27 files, 1.3MB
+==> Installing eddieantonio/eddieantonio/imgcat dependency: jpeg
+==> Pouring jpeg--9e.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg/9e: 21 files, 904.3KB
+==> Installing eddieantonio/eddieantonio/imgcat
+==> ./configure
+==> make install PREFIX=/opt/homebrew/Cellar/imgcat/2.5.1
+==> Caveats
+The imgcat binary conflicts with iTerm2 3.0's shell script of the same name.
+To use this formula as drop-in replacement, add `unalias imgcat` to your
+shell startup file **after** sourcing the shell integration, like so:
+
+    unalias imgcat
+==> Summary
+🍺  /opt/homebrew/Cellar/imgcat/2.5.1: 6 files, 280.8KB, built in 4 seconds

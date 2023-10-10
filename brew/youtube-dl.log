@@ -1,0 +1,21 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/youtube-dl/manifests/2021.12.17-3
+==> Fetching dependencies for youtube-dl: python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.0-1
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:1b80d028071d82c62a4eafc1d7a7c6565a6323cc5d44d22e67faab551b6154f5
+==> Fetching youtube-dl
+==> Downloading https://ghcr.io/v2/homebrew/core/youtube-dl/blobs/sha256:2e8e5b503f45df8295c549bd1b3c8852eddeb1a820ef83609346ff05eb0aef42
+==> Installing dependencies for youtube-dl: python@3.12
+==> Installing youtube-dl dependency: python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.0-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/1d0e36aa721b7d8acd766516670f97049b43de5aeca6a81a88fbc208ff4eff5f--python@3.12-3.12.0-1.bottle_manifest.json
+==> Pouring python@3.12--3.12.0.arm64_monterey.bottle.1.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.0/bin/python3.12 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.0/bin/python3.12 -Im pip install -v --[0m
+🍺  /opt/homebrew/Cellar/python@3.12/3.12.0: 3,195 files, 65.3MB
+==> Installing youtube-dl
+==> Pouring youtube-dl--2021.12.17.arm64_monterey.bottle.3.tar.gz
+🍺  /opt/homebrew/Cellar/youtube-dl/2021.12.17: 846 files, 5.9MB
+==> Running `brew cleanup youtube-dl`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).

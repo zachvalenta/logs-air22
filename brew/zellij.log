@@ -1,0 +1,27 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/zellij/manifests/0.39.0
+==> Fetching dependencies for zellij: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.1.4
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:81f024814ded9921e2d3d57782afb253a23c77530a5cfa17b86d6353436a428b
+==> Fetching zellij
+==> Downloading https://ghcr.io/v2/homebrew/core/zellij/blobs/sha256:1c19cf46e7252eef1a094394cb76361514da1f2eae73a4f627b81894fdf39c24
+==> Installing dependencies for zellij: openssl@3
+==> Installing zellij dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.1.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/528fccab152aa17857e73f54f268d413bf94e22188c0e4ff17a6c497d2783b88--openssl@3-3.1.4.bottle_manifest.json
+==> Pouring openssl@3--3.1.4.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.1.4: 6,496 files, 28.4MB
+==> Installing zellij
+==> Pouring zellij--0.39.0.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/zellij/0.39.0: 11 files, 21.5MB
+==> Running `brew cleanup zellij`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> zellij
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions

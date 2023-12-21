@@ -1,0 +1,22 @@
+$ pyenv which python
+/Users/zach/.pyenv/versions/3.10.1/bin/python
+
+$ python -m pip list
+Package    Version
+---------- -------
+pip        21.2.4
+setuptools 58.1.0
+WARNING: You are using pip version 21.2.4; however, version 23.3.2 is available.
+You should consider upgrading via the '/Users/zach/.pyenv/versions/3.10.1/bin/python -m pip install --upgrade pip' command.
+
+$ python -m pip install --upgrade pip
+Requirement already satisfied: pip in /Users/zach/.pyenv/versions/3.10.1/lib/python3.10/site-packages (21.2.4)
+Collecting pip
+  Downloading pip-23.3.2-py3-none-any.whl (2.1 MB)
+     |████████████████████████████████| 2.1 MB 4.1 MB/s
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.4
+    Uninstalling pip-21.2.4:
+      Successfully uninstalled pip-21.2.4
+Successfully installed pip-23.3.2

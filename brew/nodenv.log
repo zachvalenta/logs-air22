@@ -1,0 +1,42 @@
+brew install nodenv
+Running `brew update --auto-update`...
+==> Auto-updated Homebrew!
+Updated 1 tap (eddieantonio/eddieantonio).
+
+You have 47 outdated formulae installed.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/nodenv/manifests/1.4.1
+######################################################################################################################################## 100.0%
+==> Fetching dependencies for nodenv: node-build
+==> Downloading https://ghcr.io/v2/homebrew/core/node-build/manifests/4.9.133
+######################################################################################################################################## 100.0%
+==> Fetching dependencies for node-build: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0_1
+######################################################################################################################################## 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:5d887a81125b5c133a0ddc6dd2ec782366441031c42f7df7d75cce8e126d118f
+######################################################################################################################################## 100.0%
+==> Fetching node-build
+==> Downloading https://ghcr.io/v2/homebrew/core/node-build/blobs/sha256:e9e144a9a9f634b57ae80233050d44edc3c7e704d18d5d70b2fe23505c8c09ac
+######################################################################################################################################## 100.0%
+==> Fetching nodenv
+==> Downloading https://ghcr.io/v2/homebrew/core/nodenv/blobs/sha256:ba6861d4f43e60dff19ac5ce379ca7d735b30ec069e82c8adba1481efe1a6ff6
+######################################################################################################################################## 100.0%
+==> Installing dependencies for nodenv: node-build
+==> Installing nodenv dependency: node-build
+==> Downloading https://ghcr.io/v2/homebrew/core/node-build/manifests/4.9.133
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f0292426219966e9e689afc2331d6fadf326558baea95cdaec1f13133838d3c2--node-build-4.9.133.bottle_manifest.json
+==> Installing dependencies for node-build: openssl@3
+==> Installing node-build dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8e5415de690efd057f74775ab4b808fed9a50bf29c34ee9cb52118d189ef73a9--openssl@3-3.2.0_1.bottle_manifest.json
+==> Pouring openssl@3--3.2.0_1.arm64_monterey.bottle.tar.gz
+==> Installing node-build
+==> Pouring node-build--4.9.133.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node-build/4.9.133: 842 files, 1MB
+==> Installing nodenv
+==> Pouring nodenv--1.4.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nodenv/1.4.1: 34 files, 125.0KB
+==> Running `brew cleanup nodenv`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).

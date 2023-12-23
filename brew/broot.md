@@ -1,3 +1,6 @@
+# initial
+
+```sh
 $ brew install broot
 
 ==> Auto-updated Homebrew!
@@ -79,3 +82,62 @@ Creating link from /Users/zach/.config/broot/launcher/bash/br to /Users/zach/Lib
 The br function has been successfully installed.
 You may have to restart your shell or source your shell init files.
 Afterwards, you should start broot with br in order to use its full power.
+```
+
+# uninstall
+
+```sh
+$ brew uninstall broot
+
+Uninstalling /opt/homebrew/Cellar/broot/1.16.2... (15 files, 6.2MB)
+
+$ brew uninstall -f broot
+
+brew install broot
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################################################################################## 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+######################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/broot/manifests/1.30.2
+######################################################################################################################################## 100.0%
+==> Fetching broot
+==> Downloading https://ghcr.io/v2/homebrew/core/broot/blobs/sha256:23faebec5ff4fd6886a2ec06fc537287b7f5ab9a854816f028d09de761e7eb52
+######################################################################################################################################## 100.0%
+==> Pouring broot--1.30.2.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/broot/1.30.2: 15 files, 8.9MB
+==> Running `brew cleanup broot`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ b
+
+Broot's shell function should be upgraded.
+
+Can I proceed? [Y/n]
+Y
+Removing /Users/zach/.config/broot/launcher/installed-v1.
+Removing /Users/zach/Library/Application Support/org.dystroy.broot/launcher/bash/1.
+Writing br shell function in /Users/zach/Library/Application Support/org.dystroy.broot/launcher/bash/1.
+Removing /Users/zach/.config/broot/launcher/bash/br.
+Creating link from /Users/zach/.config/broot/launcher/bash/br to /Users/zach/Library/Application Support/org.dystroy.broot/launcher/bash/1.
+/Users/zach/.zshrc already patched, no change made.
+
+The br function has been successfully installed.
+You may have to restart your shell or source your shell init files.
+Afterwards, you should start broot with br in order to use its full power.
+```
+
+# after removing .config/broot
+
+```sh
+$ broot
+New Configuration files written in "/Users/zach/Library/Application Support/org.dystroy.broot".
+You should have a look at them: their comments will help you configure broot.
+You should especially set up your favourite editor in verbs.hjson.
+```
+
+still doesn't work, even after creating `conf.toml` symlink in `/Users/zach/Library/Application Support/org.dystroy.broot`

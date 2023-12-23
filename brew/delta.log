@@ -1,0 +1,20 @@
+$ brew install git-delta
+Running `brew update --auto-update`...
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/manifests/0.16.5
+######################################################################################################################################## 100.0%
+==> Fetching git-delta
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/blobs/sha256:f5bcdb9902178b0edfe9120cb7eeb07f9a2db90922a785d22a2433dd08756832
+######################################################################################################################################## 100.0%
+==> Pouring git-delta--0.16.5.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git-delta/0.16.5: 10 files, 5.9MB
+==> Running `brew cleanup git-delta`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ brew uninstall git-delta
+
+Uninstalling /opt/homebrew/Cellar/git-delta/0.16.5... (10 files, 5.9MB)

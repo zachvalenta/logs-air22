@@ -1,0 +1,13 @@
+$ brew install ncdu
+
+Running `brew update --auto-update`...
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/manifests/2.3
+######################################################################################################################################## 100.0%
+==> Fetching ncdu
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:b9811c7444bc9803111b4473484019a83da067071e7cfbd0e8dfb53970a57098
+######################################################################################################################################## 100.0%
+==> Pouring ncdu--2.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncdu/2.3: 6 files, 574.0KB
+==> Running `brew cleanup ncdu`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).

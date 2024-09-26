@@ -1,0 +1,623 @@
+$ brew install yt-dlp > yt-dlp.log
+Warning: These files were overwritten during the `brew link` step:
+Warning: openssl@1.1 has been deprecated because it is not supported upstream!
+
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/manifests/2024.03.10
+==> Fetching dependencies for yt-dlp: ca-certificates, certifi, mpdecimal, openssl@3, readline, sqlite, xz and python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-03-11
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:cab828953672906e00a8f25db751977b8dc4115f021f8dfe82b644ade03dacdb
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.2.2
+==> Fetching certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/blobs/sha256:8428b22a89a1b10243e7d516f030afda91a8475aa58ded7b668f0c522a37d5db
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:57311ecd036fae8d74c541ab5a30944a5a5cfea7abaa6b8c936b7376821edafd
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.1-1
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:a99828f7bf992193ab24f93eb85da1d89901d2f7ba32acb6fff9506d9b030897
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.10
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:e58bc8376c36602c3cedf94075bb1097b04b77438c5a946fdbd37bf0eb6579c2
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.45.1
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:5e370755b9252a8e9161182b9c9ae68fa46077d9d4187af225c1d0e8304af970
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.1
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:0ae9c26448ce55dbc7604640826990ea630e74dfd084b430fa0c13805a58ae20
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.2_1
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:d5f921fba6c83ddda6cf887ed040106dc7647a9b2aed035a1079d58c7c7c5f62
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:e20863a4f9a74a14d0535783c649a90fcd13787dd8247ebdccf22ad0debfe47d
+==> Installing dependencies for yt-dlp: ca-certificates, certifi, mpdecimal, openssl@3, readline, sqlite, xz and python@3.12
+==> Installing yt-dlp dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-03-11
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c431e0186df2ccc2ea942b34a3c26c2cebebec8e07ad6abdae48447a52c5f506--ca-certificates-2024-03-11.bottle_manifest.json
+==> Pouring ca-certificates--2024-03-11.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2024-03-11: 3 files, 229.6KB
+==> Installing yt-dlp dependency: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.2.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/02093bb105fb5bd7c9c6d3416050ad730e9bc91e187a0eac203e804168511726--certifi-2024.2.2.bottle_manifest.json
+==> Pouring certifi--2024.2.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2024.2.2: 30 files, 24.4KB
+==> Installing yt-dlp dependency: mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/7b63c3b34bee402290af49fac829a6682ab45ea5c9258b6fe03b590a03a4c4a9--mpdecimal-4.0.0-1.bottle_manifest.json
+==> Pouring mpdecimal--4.0.0.arm64_monterey.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/mpdecimal/4.0.0: 21 files, 657KB
+==> Installing yt-dlp dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.1-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f7b6e249843882452d784a8cbc4e19231186230b9e485a2a284d5c1952a95ec2--openssl@3-3.2.1-1.bottle_manifest.json
+==> Pouring openssl@3--3.2.1.arm64_monterey.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.2.1: 6,874 files, 32MB
+==> Installing yt-dlp dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.10
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/4ddd52803319828799f1932d4c7fa8d11c667049b20a56341c0c19246a1be93b--readline-8.2.10.bottle_manifest.json
+==> Pouring readline--8.2.10.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.10: 50 files, 1.7MB
+==> Installing yt-dlp dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.45.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/71097ce212759125014f67983b78169c6f0e4db27076f1fd794028b9700e6d0c--sqlite-3.45.1.bottle_manifest.json
+==> Pouring sqlite--3.45.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.45.1: 11 files, 4.8MB
+==> Installing yt-dlp dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/bc72ad1aed6fc861afaf3fd0af8266ea2913cb871cfdcbeef0c228afb9826c72--xz-5.6.1.bottle_manifest.json
+==> Pouring xz--5.6.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.6.1: 166 files, 2.7MB
+==> Installing yt-dlp dependency: python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.2_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/db6a7027cff95a641d6d0c07e00f7b8fa26b0733b6d215c3752b745a381ebcb8--python@3.12-3.12.2_1.bottle_manifest.json
+==> Pouring python@3.12--3.12.2_1.arm64_monterey.bottle.tar.gz
+/opt/homebrew/bin/2to3
+/opt/homebrew/bin/idle3
+/opt/homebrew/bin/pydoc3
+/opt/homebrew/bin/python3
+/opt/homebrew/bin/python3-config
+/opt/homebrew/share/man/man1/python3.1
+/opt/homebrew/lib/pkgconfig/python3-embed.pc
+/opt/homebrew/lib/pkgconfig/python3.pc
+/opt/homebrew/Frameworks/Python.framework/Headers
+/opt/homebrew/Frameworks/Python.framework/Python
+/opt/homebrew/Frameworks/Python.framework/Resources
+/opt/homebrew/Frameworks/Python.framework/Versions/Current
+
+They have been backed up to: /Users/zach/Library/Caches/Homebrew/Backup
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.2_1/bin/python3.12 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.2_1/bin/python3.12 -Im pip install -v [0m
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.12/3.12.2_1: 3,239 files, 65.7MB
+==> Installing yt-dlp
+==> Pouring yt-dlp--2024.03.10.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/yt-dlp/2024.03.10: 1,667 files, 18.0MB
+==> Running `brew cleanup yt-dlp`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Upgrading 17 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+aom 3.7.0 -> 3.8.1, gnutls 3.8.1 -> 3.8.3, little-cms2 2.15 -> 2.16, jpeg-xl 0.8.2_1 -> 0.10.2, node-build 4.9.133 -> 4.9.138, openjpeg 2.5.0_1 -> 2.5.2, ffmpeg 6.0_1 -> 6.1.1_4, cmus 2.10.0_2 -> 2.10.0_3, leptonica 1.83.1 -> 1.84.1, openssl@1.1 1.1.1s -> 1.1.1w, p11-kit 0.25.0 -> 0.25.3, pipx 1.2.0 -> 1.4.3, pyenv 2.3.6 -> 2.3.36, python@3.11 3.11.5 -> 3.11.8, tesseract 5.3.2_1 -> 5.3.4_1, unbound 1.18.0_1 -> 1.19.2, zellij 0.39.0 -> 0.39.2
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1w
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.25.3
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.19.2
+==> Fetching dependencies for unbound: libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.60.0
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:133c3e2c0eda6a7e7571ecf55fc30f5232faa955fc54c92d81b281ec6d19756b
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:b3661edc73c489f3910ad2020fbe0b3df3fb025871ba4ae57dab2bf918812e99
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.8.3
+==> Fetching dependencies for gnutls: gmp, gettext and p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.3.0
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:2115b33b8b4052f91ffb85e476c7fc0388cf4e614af1ce6453b35e6d25473911
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:2707884e348a412db35279bdd713c9026c1b1cf40fcc67fc562e68b26189bb86
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.25.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/cc547bf2f72da03680090015f5b720aff280ce33de9c33783a69c24fe97a4246--p11-kit-0.25.3.bottle_manifest.json
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:3bc4bc733ac93bdb69cad61da77152e17758613736eddbd2b1518145a24efa21
+==> Fetching gnutls
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:2773884a8ac832948974bd13316e2b79cbf6c37becdab9b5762425bc5826e998
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.16
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.10.2
+==> Fetching dependencies for jpeg-xl: highway, imath, jpeg-turbo, libpng, little-cms2 and openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/manifests/1.1.0
+==> Fetching highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/blobs/sha256:10f7f22edbe1ca6413505126fcf3a334ff80e261327dca2ca9ed16fa29525907
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.11
+==> Fetching imath
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/blobs/sha256:fbc0023344b0fc0a5b37255dc2609c63fdc558635bffe99cb4a1edec17bb5f5d
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.1
+==> Fetching jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:1ae417c7b858c45796f21a17159f21bde07a0e575318dca1757b92fb3b3e515c
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.43
+==> Fetching libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:b41f32d6d5dc6172f9008cf4e9ca8c0595f7c5f10076742a134740c119051ce1
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.16
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c4e2b31b0daade62da1f3c2e57d69f74987bac35310011b87220145fa60b3558--little-cms2-2.16.bottle_manifest.json
+==> Fetching little-cms2
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:2f155dd797f8d008616c61677d7b7ebc49b349feb06a1c86239d49e1b9a5118d
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.2.3
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:58a60da9dcce71915ce5dc11b4330d09c712f6040740f9bffc26efecbbb5d7c7
+==> Fetching jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:4fefef455164e3c000c11fb55579c5b43983666d4898dec23dce4f4964a3433a
+==> Downloading https://ghcr.io/v2/homebrew/core/node-build/manifests/4.9.138
+==> Fetching dependencies for node-build: autoconf
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.72
+==> Fetching autoconf
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:bb39057e87dd9cb940bee15ff5b5172952a0350e59b14a6f55b8006a07813186
+==> Fetching node-build
+==> Downloading https://ghcr.io/v2/homebrew/core/node-build/blobs/sha256:d193669e0be3813699721c4cacd5f56dbbc6ba290b0e1b5fadd2479265ceb89e
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/manifests/2.5.2
+==> Fetching openjpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/blobs/sha256:f9aa864e7bb14b36df6d7f83f5f5a10a65c9fb6b4227d7e6edcdecb9af2263dc
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.8.1
+==> Fetching dependencies for aom: libvmaf
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/manifests/3.0.0
+==> Fetching libvmaf
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/blobs/sha256:2c9b931ff4d557c6f731b1e834464f96e2620e77f1b857c2ec3061bb589e42da
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:133e39d2ea6abc7a1bb2f17c8cabfc64f0e46756104ce3cb4b4ecfed66436bc6
+==> Downloading https://ghcr.io/v2/homebrew/core/leptonica/manifests/1.84.1
+==> Fetching leptonica
+==> Downloading https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:1b2eeef988742aeb3b35faba109d737a8358000d16c0127ade00a72f74bdf708
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/manifests/5.3.4_1
+==> Fetching dependencies for tesseract: fontconfig, glib, libxext, icu4c and harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.15.0
+==> Fetching fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:93df98ef8a2740e22c028048bfa34f2635b4265ef406462d89705f9c39df969c
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.80.0
+==> Fetching dependencies for glib: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:ce23b3c3a974b28c4a88537a92b33eb97d36ef6677f7d486264e391358573465
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:3bb647ad2614972eb32b89ee0dafc102b511255fd2499324d62c6a8e2ac07935
+==> Downloading https://ghcr.io/v2/homebrew/core/libxext/manifests/1.3.6
+==> Fetching libxext
+==> Downloading https://ghcr.io/v2/homebrew/core/libxext/blobs/sha256:d580398c8be17c909f43f110b4d8a459850f066c4ef97d7a6184c5c66242893c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:014d11c8918c732dc17f4436d1946584ab42a443355f18096e6d6f3280390330
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/8.3.0_1
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:7c4e555347d9f721f318620480fd1c659851c24187a29ffcc6d30335a5dab2bb
+==> Fetching tesseract
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/blobs/sha256:293eb4c6ae34966a4cbd869fa1ee4e8542d9c11e4daaf7249b1f13c82890d5b6
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/manifests/6.1.1_4
+==> Fetching dependencies for ffmpeg: dav1d, frei0r, libidn2, libunibreak, libass, cjson, libmicrohttpd, mbedtls, librist, libssh, isl, mpfr, libmpc, gcc, openblas, numpy, pugixml, hwloc, tbb, openvino, rav1e, mpg123, sdl2, svt-av1, x264, libsodium and zeromq
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/manifests/1.4.0
+==> Fetching dav1d
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/blobs/sha256:7e246f7e18345ddbb91c2fac65878bf0bfee77e5e698fa9eb20502fa81418ba5
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/manifests/2.3.2
+==> Fetching frei0r
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/blobs/sha256:eafbb229d0de96e9cb4c17f82cc728ef1cd48ae236ce827b86e6784aa218d5d0
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.7
+==> Fetching libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:621dbb561aeddc8c0d7e856e990414526c43d9da400d3a2a613d2be3c1ebb41f
+==> Downloading https://ghcr.io/v2/homebrew/core/libunibreak/manifests/6.1
+==> Fetching libunibreak
+==> Downloading https://ghcr.io/v2/homebrew/core/libunibreak/blobs/sha256:f14809e82b501d33b043d4943c9dcf5b8667adeddcefff7356d41c993575de35
+==> Downloading https://ghcr.io/v2/homebrew/core/libass/manifests/0.17.1_1
+==> Fetching libass
+==> Downloading https://ghcr.io/v2/homebrew/core/libass/blobs/sha256:7a7ea07e614eb28673572af37c5b2d4022964cf1f4e38cb7bdcb960caac7154f
+==> Downloading https://ghcr.io/v2/homebrew/core/cjson/manifests/1.7.17
+==> Fetching cjson
+==> Downloading https://ghcr.io/v2/homebrew/core/cjson/blobs/sha256:ba43d4860a42c1682366ac6aca8d32cd685e0b5343e3f630e62c3e717dd8c4a8
+==> Downloading https://ghcr.io/v2/homebrew/core/libmicrohttpd/manifests/1.0.1
+==> Fetching libmicrohttpd
+==> Downloading https://ghcr.io/v2/homebrew/core/libmicrohttpd/blobs/sha256:c1be769ed563cebdb5d757aea93effa91d5ad0925dabcbad0adde31a82edbce0
+==> Downloading https://ghcr.io/v2/homebrew/core/mbedtls/manifests/3.5.2
+==> Fetching mbedtls
+==> Downloading https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:f389f1f98332beb78f959ef2be9d6374770e2942e7e9d56365a58158df303ab3
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.10
+==> Fetching librist
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/blobs/sha256:625d0cf67b82ec6e975ed740ba1d44b6545858b80518da9fc6949ff51cc063b2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh/manifests/0.10.6
+==> Fetching libssh
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh/blobs/sha256:18b4ce639a0259997f4c40ef65168b293dde5ea3b5920a0c6daa1945bf2d955b
+==> Downloading https://ghcr.io/v2/homebrew/core/isl/manifests/0.26
+==> Fetching isl
+==> Downloading https://ghcr.io/v2/homebrew/core/isl/blobs/sha256:0a3e83c458420e4b469ad7464d16d6c9cd26a888059358eb5f1f9d3cff54bbd7
+==> Downloading https://ghcr.io/v2/homebrew/core/mpfr/manifests/4.2.1
+==> Fetching mpfr
+==> Downloading https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:209306f204f9cc2db3a1a500a9426f18e410f7783914d41e09e39782f94c55da
+==> Downloading https://ghcr.io/v2/homebrew/core/libmpc/manifests/1.3.1
+==> Fetching libmpc
+==> Downloading https://ghcr.io/v2/homebrew/core/libmpc/blobs/sha256:dd3994160b3625b1f14e34abf632b90bf49e71db1cc85c12e9ab529d4cae2a87
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/manifests/13.2.0-2
+==> Fetching gcc
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/blobs/sha256:026a25661c70e7c0ca6a33afeb406c9b76fd87b93396a1bc2e94aa10ba0801e3
+==> Downloading https://ghcr.io/v2/homebrew/core/openblas/manifests/0.3.26
+==> Fetching openblas
+==> Downloading https://ghcr.io/v2/homebrew/core/openblas/blobs/sha256:e07caf8dfbb385473b6073da1cad9df4484632eb9ab590067fe912915cc5a6c2
+==> Downloading https://ghcr.io/v2/homebrew/core/numpy/manifests/1.26.4
+==> Fetching numpy
+==> Downloading https://ghcr.io/v2/homebrew/core/numpy/blobs/sha256:4c6d2747b3204fae2a75b4bd9a91e53971e6a394b7beaede5c331e34009a3072
+==> Downloading https://ghcr.io/v2/homebrew/core/pugixml/manifests/1.14
+==> Fetching pugixml
+==> Downloading https://ghcr.io/v2/homebrew/core/pugixml/blobs/sha256:d0508642948a557dfe8b0ea0c764d350175e43730b3012ca1996ef3764aa4c4f
+==> Downloading https://ghcr.io/v2/homebrew/core/hwloc/manifests/2.10.0
+==> Fetching hwloc
+==> Downloading https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:4e3a3403dcb48a28115689ac204ec581765280b75458a7fe5074d919dc6641d4
+==> Downloading https://ghcr.io/v2/homebrew/core/tbb/manifests/2021.11.0-1
+==> Fetching tbb
+==> Downloading https://ghcr.io/v2/homebrew/core/tbb/blobs/sha256:e9ff0aba06130659e53186ff76c843e922eeba909c19ccb9d1c4274cc51dcc38
+==> Downloading https://ghcr.io/v2/homebrew/core/openvino/manifests/2023.3.0
+==> Fetching openvino
+==> Downloading https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:c348ebe9b9513ca07f63386bb285e41b4764935d99e51d0424665281ecca05fd
+==> Downloading https://ghcr.io/v2/homebrew/core/rav1e/manifests/0.7.1
+==> Fetching rav1e
+==> Downloading https://ghcr.io/v2/homebrew/core/rav1e/blobs/sha256:5a95ecb310417a49fcd0a488a7f69bddede2ab766345e7a90f28235430c27109
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/manifests/1.32.5
+==> Fetching mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/blobs/sha256:d7be76a7c86e30dba7b9fc36335ba437e8b73812c7fbaa696b7077b0fdba2a8c
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/manifests/2.30.1
+==> Fetching sdl2
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/blobs/sha256:4425df6b5745c4d8644046fc48eb249ef83a9262e29569e66b3a9fe97f94e143
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/manifests/1.8.0-1
+==> Fetching svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/blobs/sha256:336216729d71e1fde3c53bdcf5d918cd42012d1014b100443b2107413d6a8b4b
+==> Downloading https://ghcr.io/v2/homebrew/core/x264/manifests/r3108
+==> Fetching x264
+==> Downloading https://ghcr.io/v2/homebrew/core/x264/blobs/sha256:629c423cef3f124d566e852d72a7d27b48370463c7501f3c99879f5eab68ae20
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/manifests/1.0.19
+==> Fetching libsodium
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:2bb039f392d4f01cda78cac11b30bda1a37e8474ba8f583e47ce710403a1f630
+==> Downloading https://ghcr.io/v2/homebrew/core/zeromq/manifests/4.3.5_1
+==> Fetching zeromq
+==> Downloading https://ghcr.io/v2/homebrew/core/zeromq/blobs/sha256:3a8bc264cb466f765f65f73b0db3c202899656efa11b2df37bd961a224589e20
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:db212b9a081a69aaf3e650efbb2061cbd08ce75ba9a8a6da3964e1f8930c6119
+==> Downloading https://ghcr.io/v2/homebrew/core/cmus/manifests/2.10.0_3
+==> Fetching dependencies for cmus: faad2 and libcue
+==> Downloading https://ghcr.io/v2/homebrew/core/faad2/manifests/2.11.1
+==> Fetching faad2
+==> Downloading https://ghcr.io/v2/homebrew/core/faad2/blobs/sha256:8c1b8e4f6a5381a051289223200107587f040bbb76e4187785e59e0887d27d75
+==> Downloading https://ghcr.io/v2/homebrew/core/libcue/manifests/2.3.0
+==> Fetching libcue
+==> Downloading https://ghcr.io/v2/homebrew/core/libcue/blobs/sha256:668a55590220069e7b7711d37ff033aa36102a27cacd715bfabd0699bd3c2a22
+==> Fetching cmus
+==> Downloading https://ghcr.io/v2/homebrew/core/cmus/blobs/sha256:8b7ad68e7c6559663e11a2e013f33967a97b084d2e8aa6b596bad4e78c951d03
+==> Downloading https://ghcr.io/v2/homebrew/core/pipx/manifests/1.4.3-2
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/manifests/2.3.36
+==> Fetching pyenv
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/blobs/sha256:ff8291320e2fbec388f35b94496554f21347bee7565f5a6daf686d27868c44b7
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/manifests/3.11.8
+==> Downloading https://ghcr.io/v2/homebrew/core/zellij/manifests/0.39.2
+==> Upgrading unbound
+  1.18.0_1 -> 1.19.2 
+==> Installing dependencies for unbound: libnghttp2
+==> Installing unbound dependency: libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.60.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/93526e3afa1b4f61ef51358f59948495ee0d7dd55c19eba4ca099e969cdc0781--libnghttp2-1.60.0.bottle_manifest.json
+==> Pouring libnghttp2--1.60.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.60.0: 13 files, 804.7KB
+==> Installing unbound
+==> Pouring unbound--1.19.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unbound/1.19.2: 58 files, 5.9MB
+==> Running `brew cleanup unbound`...
+Removing: /opt/homebrew/Cellar/unbound/1.18.0_1... (58 files, 5.8MB)
+==> Upgrading gnutls
+  3.8.1 -> 3.8.3 
+==> Installing dependencies for gnutls: gmp, gettext and p11-kit
+==> Installing gnutls dependency: gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.3.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/70a72a71216843d66a953c06ff6337445ce9bc94fae9f0e301e2f59005274a8e--gmp-6.3.0.bottle_manifest.json
+==> Pouring gmp--6.3.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gmp/6.3.0: 21 files, 3.3MB
+==> Installing gnutls dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/447e45b77bb47ede0377f7eab1863825298ecaaaeed0bbd84aca3bd300b00508--gettext-0.22.5.bottle_manifest.json
+==> Pouring gettext--0.22.5.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.22.5: 2,043 files, 24.4MB
+==> Installing gnutls dependency: p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.25.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/cc547bf2f72da03680090015f5b720aff280ce33de9c33783a69c24fe97a4246--p11-kit-0.25.3.bottle_manifest.json
+==> Pouring p11-kit--0.25.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.25.3: 28 files, 4.1MB
+==> Installing gnutls
+==> Pouring gnutls--3.8.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gnutls/3.8.3: 1,290 files, 10.8MB
+==> Running `brew cleanup gnutls`...
+Removing: /opt/homebrew/Cellar/gnutls/3.8.1... (1,284 files, 10.7MB)
+==> Upgrading jpeg-xl
+  0.8.2_1 -> 0.10.2 
+==> Installing dependencies for jpeg-xl: highway, imath, jpeg-turbo, libpng, little-cms2 and openexr
+==> Installing jpeg-xl dependency: highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/manifests/1.1.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/7ce58fabeff5804d02234c64dacb66f2fc8799558e56104a42ba7d82a8ad7ffa--highway-1.1.0.bottle_manifest.json
+==> Pouring highway--1.1.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/highway/1.1.0: 70 files, 3.7MB
+==> Installing jpeg-xl dependency: imath
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.11
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/4738c3b3aeed35cc9103ddfda8626c334457672a7e704d000247ccc8f1fddee9--imath-3.1.11.bottle_manifest.json
+==> Pouring imath--3.1.11.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/imath/3.1.11: 49 files, 939.7KB
+==> Installing jpeg-xl dependency: jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/abe7baf77a474e831f940214d72e8d72182373e6ea726884670f2d90f47525a7--jpeg-turbo-3.0.1.bottle_manifest.json
+==> Pouring jpeg-turbo--3.0.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.0.1: 44 files, 3.4MB
+==> Installing jpeg-xl dependency: libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.43
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/dd618b09b8d6d4b89203b771528951e5309631cc3afd8dc1236f0e98965f2b67--libpng-1.6.43.bottle_manifest.json
+==> Pouring libpng--1.6.43.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.43: 27 files, 1.3MB
+==> Installing jpeg-xl dependency: little-cms2
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.16
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c4e2b31b0daade62da1f3c2e57d69f74987bac35310011b87220145fa60b3558--little-cms2-2.16.bottle_manifest.json
+==> Pouring little-cms2--2.16.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.16: 22 files, 1.4MB
+==> Installing jpeg-xl dependency: openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.2.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/42bff0aab1543b0f03eba5db9f1a6b8221ecf9583b9ee8be5c696543ce3f5006--openexr-3.2.3.bottle_manifest.json
+==> Pouring openexr--3.2.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.2.3: 205 files, 7.9MB
+==> Installing jpeg-xl
+==> Pouring jpeg-xl--0.10.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.10.2: 47 files, 3.9MB
+==> Running `brew cleanup jpeg-xl`...
+Removing: /opt/homebrew/Cellar/jpeg-xl/0.8.2_1... (43 files, 10.6MB)
+==> Upgrading node-build
+  4.9.133 -> 4.9.138 
+==> Installing dependencies for node-build: autoconf
+==> Installing node-build dependency: autoconf
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.72
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/b73cdb320c4261bbf8d02d03e50dc755c869c5859c1d4e93616898fc7cd939ff--autoconf-2.72.bottle_manifest.json
+==> Pouring autoconf--2.72.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/autoconf/2.72: 71 files, 3.6MB
+==> Installing node-build
+==> Pouring node-build--4.9.138.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node-build/4.9.138: 849 files, 1MB
+==> Running `brew cleanup node-build`...
+Removing: /opt/homebrew/Cellar/node-build/4.9.133... (842 files, 1MB)
+==> Upgrading openjpeg
+  2.5.0_1 -> 2.5.2 
+==> Pouring openjpeg--2.5.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjpeg/2.5.2: 538 files, 14MB
+==> Running `brew cleanup openjpeg`...
+Removing: /opt/homebrew/Cellar/openjpeg/2.5.0_1... (536 files, 13.8MB)
+==> Upgrading aom
+  3.7.0 -> 3.8.1 
+==> Installing dependencies for aom: libvmaf
+==> Installing aom dependency: libvmaf
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/manifests/3.0.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6bf89f1d683f34ff5b4c58275236e1f038d5d8189e538795d9af83e07d4c8404--libvmaf-3.0.0.bottle_manifest.json
+==> Pouring libvmaf--3.0.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.0.0: 234 files, 7.1MB
+==> Installing aom
+==> Pouring aom--3.8.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.8.1: 23 files, 10.0MB
+==> Running `brew cleanup aom`...
+Removing: /opt/homebrew/Cellar/aom/3.7.0... (23 files, 9MB)
+==> Upgrading leptonica
+  1.83.1 -> 1.84.1 
+==> Pouring leptonica--1.84.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/leptonica/1.84.1: 56 files, 6.9MB
+==> Running `brew cleanup leptonica`...
+Removing: /opt/homebrew/Cellar/leptonica/1.83.1... (56 files, 6.8MB)
+==> Upgrading tesseract
+  5.3.2_1 -> 5.3.4_1 
+==> Installing dependencies for tesseract: fontconfig, glib, libxext, icu4c and harfbuzz
+==> Installing tesseract dependency: fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.15.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/33d176010dc9a105404ed23b6c0f8b853bf3a2df2e274876d412d7229a643320--fontconfig-2.15.0.bottle_manifest.json
+==> Pouring fontconfig--2.15.0.arm64_monterey.bottle.tar.gz
+[34m==>[0m [1mRegenerating font cache, this may take a while[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/fontconfig/2.15.0/bin/fc-cache -frv[0m
+🍺  /opt/homebrew/Cellar/fontconfig/2.15.0: 90 files, 2.4MB
+==> Installing tesseract dependency: glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.80.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/5089f08eccf209f049af71b44f4a697e1a18e0237cec0488e5612332868fc6be--glib-2.80.0.bottle_manifest.json
+==> Installing dependencies for glib: pcre2
+==> Installing glib dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/4c12870adcfbf27eeeae4f44a420311ca3449f06a2fd8f6fcfe3d13db18087b4--pcre2-10.43.bottle_manifest.json
+==> Pouring pcre2--10.43.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.43: 234 files, 6.3MB
+==> Installing glib
+==> Pouring glib--2.80.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.80.0: 515 files, 24.0MB
+==> Installing tesseract dependency: libxext
+==> Downloading https://ghcr.io/v2/homebrew/core/libxext/manifests/1.3.6
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/fedb843acbfcf682fb451396914bfc096f9ea2748376d4c43ce2af7ce1b766b7--libxext-1.3.6.bottle_manifest.json
+==> Pouring libxext--1.3.6.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxext/1.3.6: 87 files, 450.5KB
+==> Installing tesseract dependency: icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/3e5230e726e5548db28bc0cf75710d6405903b742f941113d3dbe7483fad72a4--icu4c-74.2.bottle_manifest.json
+==> Pouring icu4c--74.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c/74.2: 270 files, 77.9MB
+==> Installing tesseract dependency: harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/8.3.0_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/7d4da56c776328321b12bea7aeb54e250f01ac761171a71571a9376b13c3447e--harfbuzz-8.3.0_1.bottle_manifest.json
+==> Pouring harfbuzz--8.3.0_1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/8.3.0_1: 76 files, 9.5MB
+==> Installing tesseract
+==> Pouring tesseract--5.3.4_1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tesseract/5.3.4_1: 73 files, 32.2MB
+==> Running `brew cleanup tesseract`...
+Removing: /opt/homebrew/Cellar/tesseract/5.3.2_1... (73 files, 32.2MB)
+==> Upgrading ffmpeg
+  6.0_1 -> 6.1.1_4 
+==> Installing dependencies for ffmpeg: dav1d, frei0r, libidn2, libunibreak, libass, cjson, libmicrohttpd, mbedtls, librist, libssh, isl, mpfr, libmpc, gcc, openblas, numpy, pugixml, hwloc, tbb, openvino, rav1e, mpg123, sdl2, svt-av1, x264, libsodium and zeromq
+==> Installing ffmpeg dependency: dav1d
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/manifests/1.4.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/34459f595cca6db1693b53c91337ff4124a362ee472855ee72bf4a7f7a217846--dav1d-1.4.0.bottle_manifest.json
+==> Pouring dav1d--1.4.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.4.0: 15 files, 911.4KB
+==> Installing ffmpeg dependency: frei0r
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/manifests/2.3.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/91852d64b8d97723ec1a57089ba9f5a9eeff095850909578506626bdd7ec1913--frei0r-2.3.2.bottle_manifest.json
+==> Pouring frei0r--2.3.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/frei0r/2.3.2: 154 files, 5.4MB
+==> Installing ffmpeg dependency: libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.7
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/45d1d4d2930c4782bf53e761a1c0166cd8a40f4193ac8c44e86f0b6708e80354--libidn2-2.3.7.bottle_manifest.json
+==> Pouring libidn2--2.3.7.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libidn2/2.3.7: 80 files, 1MB
+==> Installing ffmpeg dependency: libunibreak
+==> Downloading https://ghcr.io/v2/homebrew/core/libunibreak/manifests/6.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/0ce1b2ced7836a56fa520c73ee31abcb81d0433729fe597e94ef03dd9d8a89f8--libunibreak-6.1.bottle_manifest.json
+==> Pouring libunibreak--6.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunibreak/6.1: 18 files, 332.4KB
+==> Installing ffmpeg dependency: libass
+==> Downloading https://ghcr.io/v2/homebrew/core/libass/manifests/0.17.1_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/d53e3e66d0e951194ed4dc03a3fc177005729197f46c8d296dc4c130bf25c3ab--libass-0.17.1_1.bottle_manifest.json
+==> Pouring libass--0.17.1_1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libass/0.17.1_1: 11 files, 533.8KB
+==> Installing ffmpeg dependency: cjson
+==> Downloading https://ghcr.io/v2/homebrew/core/cjson/manifests/1.7.17
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/cf55fa70fee20f7c1e02503108e2d0d5981d3209c4ca43763fcd623d1f60ccb8--cjson-1.7.17.bottle_manifest.json
+==> Pouring cjson--1.7.17.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cjson/1.7.17: 23 files, 254KB
+==> Installing ffmpeg dependency: libmicrohttpd
+==> Downloading https://ghcr.io/v2/homebrew/core/libmicrohttpd/manifests/1.0.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/01cc839b4ae42fa110aac833bd4c4ea38e803b45edd8f86da3d92d2f48922661--libmicrohttpd-1.0.1.bottle_manifest.json
+==> Pouring libmicrohttpd--1.0.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libmicrohttpd/1.0.1: 25 files, 1.5MB
+==> Installing ffmpeg dependency: mbedtls
+==> Downloading https://ghcr.io/v2/homebrew/core/mbedtls/manifests/3.5.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f70bb2d9a797275fc1b2f6d82c8afa96c4678c1af5a920df046929d8be1d010c--mbedtls-3.5.2.bottle_manifest.json
+==> Pouring mbedtls--3.5.2.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mbedtls/3.5.2: 192 files, 12MB
+==> Installing ffmpeg dependency: librist
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.10
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6e7e3106423cab3de30f8ff2447b73ceec33126196c42bc016d08ee062bbd2c4--librist-0.2.10.bottle_manifest.json
+==> Pouring librist--0.2.10.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/librist/0.2.10: 28 files, 794.9KB
+==> Installing ffmpeg dependency: libssh
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh/manifests/0.10.6
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a4ff6d890d834da2f865bf30651aa0ed1423be8e2684d4586895f1d9c887449b--libssh-0.10.6.bottle_manifest.json
+==> Pouring libssh--0.10.6.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh/0.10.6: 23 files, 1.3MB
+==> Installing ffmpeg dependency: isl
+==> Downloading https://ghcr.io/v2/homebrew/core/isl/manifests/0.26
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ec0bbec77171645273dd59a9ccfdf290deccd999b3ca2082e0478d282b777ec0--isl-0.26.bottle_manifest.json
+==> Pouring isl--0.26.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/isl/0.26: 73 files, 7.6MB
+==> Installing ffmpeg dependency: mpfr
+==> Downloading https://ghcr.io/v2/homebrew/core/mpfr/manifests/4.2.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a2a3424f4974f6febfa0334a93f35f508eaef3f4ad04320f73d9498302295635--mpfr-4.2.1.bottle_manifest.json
+==> Pouring mpfr--4.2.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpfr/4.2.1: 30 files, 3.1MB
+==> Installing ffmpeg dependency: libmpc
+==> Downloading https://ghcr.io/v2/homebrew/core/libmpc/manifests/1.3.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/fdfa98e0f8bb3ce075cb32776ac2345aa2f89252706c162aecfc841085fa76be--libmpc-1.3.1.bottle_manifest.json
+==> Pouring libmpc--1.3.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libmpc/1.3.1: 12 files, 470.2KB
+==> Installing ffmpeg dependency: gcc
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/manifests/13.2.0-2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/1d624841f5f550e4bbc04910c0cfb20b89d0fc7f90ab213cead29d1518479e2b--gcc-13.2.0-2.bottle_manifest.json
+==> Pouring gcc--13.2.0.arm64_monterey.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/gcc/13.2.0: 1,488 files, 382.9MB
+==> Installing ffmpeg dependency: openblas
+==> Downloading https://ghcr.io/v2/homebrew/core/openblas/manifests/0.3.26
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2a44f53d34e66a7483d4c8aef3113a7c909e7f66fad3093f429c60428caf6a6b--openblas-0.3.26.bottle_manifest.json
+==> Pouring openblas--0.3.26.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openblas/0.3.26: 23 files, 47MB
+==> Installing ffmpeg dependency: numpy
+==> Downloading https://ghcr.io/v2/homebrew/core/numpy/manifests/1.26.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6e939f59cfd420ed5deb306bceed229a459ebff7a32be913f093d46715ec72d8--numpy-1.26.4.bottle_manifest.json
+==> Pouring numpy--1.26.4.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/numpy/1.26.4: 1,708 files, 33.4MB
+==> Installing ffmpeg dependency: pugixml
+==> Downloading https://ghcr.io/v2/homebrew/core/pugixml/manifests/1.14
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/43be16538eeab0d748dff7a738daff3f5989049a83c9f64fda9c2cdbe86f5087--pugixml-1.14.bottle_manifest.json
+==> Pouring pugixml--1.14.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pugixml/1.14: 15 files, 461.3KB
+==> Installing ffmpeg dependency: hwloc
+==> Downloading https://ghcr.io/v2/homebrew/core/hwloc/manifests/2.10.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/892465425f662087a8b4b7c148c9fd17f1ac8c7824d3e8d2d3ce3459a396b0dd--hwloc-2.10.0.bottle_manifest.json
+==> Pouring hwloc--2.10.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hwloc/2.10.0: 967 files, 10.5MB
+==> Installing ffmpeg dependency: tbb
+==> Downloading https://ghcr.io/v2/homebrew/core/tbb/manifests/2021.11.0-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/60839af51b0813df2ca5522cf542bf77354b38b8b0eaf4d54866c5cd70084d54--tbb-2021.11.0-1.bottle_manifest.json
+==> Pouring tbb--2021.11.0.arm64_monterey.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/tbb/2021.11.0: 203 files, 3.2MB
+==> Installing ffmpeg dependency: openvino
+==> Downloading https://ghcr.io/v2/homebrew/core/openvino/manifests/2023.3.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/7051185189725b563ef41c2564e640c1d370885d26b9d32263959d40b76fe431--openvino-2023.3.0.bottle_manifest.json
+==> Pouring openvino--2023.3.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openvino/2023.3.0: 1,036 files, 102.8MB
+==> Installing ffmpeg dependency: rav1e
+==> Downloading https://ghcr.io/v2/homebrew/core/rav1e/manifests/0.7.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ccafd526f73546dc53bb2cd7d3c8d0e392229423fbc6962740a67633d8b06443--rav1e-0.7.1.bottle_manifest.json
+==> Pouring rav1e--0.7.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/rav1e/0.7.1: 14 files, 46.0MB
+==> Installing ffmpeg dependency: mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/manifests/1.32.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/96eea0151dd32d7f63ea6ae408482c0570c1ba4300543fc610b3c1071bc598cd--mpg123-1.32.5.bottle_manifest.json
+==> Pouring mpg123--1.32.5.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.32.5: 33 files, 2.0MB
+==> Installing ffmpeg dependency: sdl2
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/manifests/2.30.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/df68117d5edd1f797607b5de2ac2e7a1c88de4ae7b9dafafcac133d66f79938e--sdl2-2.30.1.bottle_manifest.json
+==> Pouring sdl2--2.30.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2/2.30.1: 93 files, 6.5MB
+==> Installing ffmpeg dependency: svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/manifests/1.8.0-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/3b32f05c128fc5bd9b6bd0abf76b165807553c4e3b6236a9ad62d52d714f680f--svt-av1-1.8.0-1.bottle_manifest.json
+==> Pouring svt-av1--1.8.0.arm64_monterey.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/1.8.0: 24 files, 3.9MB
+==> Installing ffmpeg dependency: x264
+==> Downloading https://ghcr.io/v2/homebrew/core/x264/manifests/r3108
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8bf7841097db8a60b1789ab16ac7f9395fc5e484932ab958334695a83e804e68--x264-r3108.bottle_manifest.json
+==> Pouring x264--r3108.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x264/r3108: 11 files, 4.2MB
+==> Installing ffmpeg dependency: libsodium
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/manifests/1.0.19
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/be1ad9f264fab9dfc313d95d9ac7d59ae1774d775801e6f935cf9fe8fe35ab21--libsodium-1.0.19.bottle_manifest.json
+==> Pouring libsodium--1.0.19.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libsodium/1.0.19: 77 files, 1MB
+==> Installing ffmpeg dependency: zeromq
+==> Downloading https://ghcr.io/v2/homebrew/core/zeromq/manifests/4.3.5_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/27b053a576863f2b2aa214070e5737e3a0ce0a073760d26c39902468274880b1--zeromq-4.3.5_1.bottle_manifest.json
+==> Pouring zeromq--4.3.5_1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zeromq/4.3.5_1: 84 files, 6.1MB
+==> Installing ffmpeg
+==> Pouring ffmpeg--6.1.1_4.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/6.1.1_4: 284 files, 51.1MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/6.0_1... (284 files, 49.7MB)
+==> Upgrading cmus
+  2.10.0_2 -> 2.10.0_3 
+==> Installing dependencies for cmus: faad2 and libcue
+==> Installing cmus dependency: faad2
+==> Downloading https://ghcr.io/v2/homebrew/core/faad2/manifests/2.11.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/70ce0886d3998befc89629e2710e2669d00d953065d82397ebdb12279607ad9f--faad2-2.11.1.bottle_manifest.json
+==> Pouring faad2--2.11.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/faad2/2.11.1: 17 files, 656.7KB
+==> Installing cmus dependency: libcue
+==> Downloading https://ghcr.io/v2/homebrew/core/libcue/manifests/2.3.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/0f90f0ff24c7f7c02c8814976e6d62a91e1ea3dca161b504dd3517617bc8553d--libcue-2.3.0.bottle_manifest.json
+==> Pouring libcue--2.3.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libcue/2.3.0: 20 files, 166.5KB
+==> Installing cmus
+==> Pouring cmus--2.10.0_3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cmus/2.10.0_3: 39 files, 1MB
+==> Running `brew cleanup cmus`...
+Removing: /opt/homebrew/Cellar/cmus/2.10.0_2... (39 files, 1MB)
+==> Upgrading pyenv
+  2.3.6 -> 2.3.36 
+==> Pouring pyenv--2.3.36.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pyenv/2.3.36: 1,158 files, 3.4MB
+==> Running `brew cleanup pyenv`...
+Removing: /opt/homebrew/Cellar/pyenv/2.3.6... (956 files, 3MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents to reinstall!
+==> Caveats
+==> yt-dlp
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions

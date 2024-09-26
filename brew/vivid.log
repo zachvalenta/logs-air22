@@ -1,0 +1,28 @@
+$ brew install vivid
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: Treating vivid as a formula. For the cask, use homebrew/cask/vivid or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+Warning: You are using macOS 12.
+We (and Apple) do not provide support for this old version.
+It is expected behaviour that some formulae will fail to build in this old version.
+It is expected behaviour that Homebrew will be buggy and slow.
+Do not create any issues about this on Homebrew's GitHub repositories.
+Do not create any issues even if you think this message is unrelated.
+Any opened issues will be immediately closed without response.
+Do not ask for help from Homebrew or its maintainers on social media.
+You may ask for help in Homebrew's discussions but are unlikely to receive a response.
+Try to figure out the problem yourself and submit a fix as a pull request.
+We will review it but may or may not accept it.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/vivid/manifests/0.10.1
+################################################################################## 100.0%
+==> Fetching vivid
+==> Downloading https://ghcr.io/v2/homebrew/core/vivid/blobs/sha256:560ecb779c10ccaef4b42
+################################################################################## 100.0%
+==> Pouring vivid--0.10.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/vivid/0.10.1: 10 files, 901.5KB
+==> Running `brew cleanup vivid`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).

@@ -1,0 +1,227 @@
+$ brew install atuin
+
+Running `brew update --auto-update`...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:ce5c135bf98da783bf5964e89aab587e3341c8adc379f36ace17ae7881f53e8c
+##################################################################### 100.0%
+==> Pouring portable-ruby-3.3.4_1.arm64_big_sur.bottle.tar.gz
+==> Downloading https://ghcr.io/v2/homebrew/core/atuin/manifests/18.3.0
+######################################################################################################################################## 100.0%
+==> Fetching atuin
+==> Downloading https://ghcr.io/v2/homebrew/core/atuin/blobs/sha256:2eacf66e3a212e014f9c1a086b2e032ce9de9f9d0d0fea7efc8c2b379f2c64f9
+#################                                                           ##########################################################################  #################################################################################################################################################################################################################### 100.0%
+==> Pouring atuin--18.3.0.arm64_monterey.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/atuin/18.3.0: 12 files, 24.2MB
+==> Running `brew cleanup atuin`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/aom_bottle_manifest--3.8.1... (21.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/aom--3.8.1... (3.8MB)
+Removing: /opt/homebrew/Cellar/autoconf/2.71... (71 files, 3.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/autoconf_bottle_manifest--2.72... (10.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/autoconf--2.72... (1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/broot_bottle_manifest--1.30.2... (10.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2024-03-11... (1.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates--2024-03-11... (129.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi_bottle_manifest--2024.2.2... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi--2024.2.2... (5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/cjson_bottle_manifest--1.7.17... (8.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/cjson--1.7.17... (56.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/cmus_bottle_manifest--2.10.0_3... (91.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/cmus--2.10.0_3... (237.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/dav1d_bottle_manifest--1.4.0... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/dav1d--1.4.0... (354.2KB)
+Removing: /opt/homebrew/Cellar/faad2/2.10.1... (19 files, 1.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/faad2_bottle_manifest--2.11.1... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/faad2--2.11.1... (317.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ffmpeg_bottle_manifest--6.1.1_4... (95.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ffmpeg--6.1.1_4... (19.6MB)
+Removing: /opt/homebrew/Cellar/fontconfig/2.14.2... (88 files, 2.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/fontconfig_bottle_manifest--2.15.0... (10.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/fontconfig--2.15.0... (632.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/frei0r_bottle_manifest--2.3.2... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/frei0r--2.3.2... (607.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gcc_bottle_manifest--13.2.0-2... (14.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gcc--13.2.0... (120.9MB)
+Removing: /opt/homebrew/Cellar/gettext/0.22.3... (2,040 files, 21.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext_bottle_manifest--0.22.5... (10KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext--0.22.5... (10.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/glib_bottle_manifest--2.80.0... (20.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/glib--2.80.0... (7MB)
+Removing: /opt/homebrew/Cellar/gmp/6.2.1_1... (21 files, 3.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gmp_bottle_manifest--6.3.0... (7.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gmp--6.3.0... (1017.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gnutls_bottle_manifest--3.8.3... (17.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gnutls--3.8.3... (3.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz_bottle_manifest--8.3.0_1... (25.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz--8.3.0_1... (2.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/highway_bottle_manifest--1.1.0... (7.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/highway--1.1.0... (663KB)
+Removing: /Users/zach/Library/Caches/Homebrew/hwloc_bottle_manifest--2.10.0... (8.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/hwloc--2.10.0... (4.2MB)
+Removing: /opt/homebrew/Cellar/icu4c/73.2... (268 files, 80.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c_bottle_manifest--74.2... (8.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c--74.2... (28.9MB)
+Removing: /opt/homebrew/Cellar/imath/3.1.9... (49 files, 934.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/imath_bottle_manifest--3.1.11... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/imath--3.1.11... (185KB)
+Removing: /Users/zach/Library/Caches/Homebrew/isl_bottle_manifest--0.26... (9.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/isl--0.26... (1.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/jpeg-turbo_bottle_manifest--3.0.1... (7.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/jpeg-turbo--3.0.1... (1.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/jpeg-xl_bottle_manifest--0.10.2... (20.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/jpeg-xl--0.10.2... (1.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/leptonica_bottle_manifest--1.84.1... (15.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/leptonica--1.84.1... (2.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libass_bottle_manifest--0.17.1_1... (27.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libass--0.17.1_1... (212.6KB)
+Removing: /opt/homebrew/Cellar/libcue/2.2.1... (20 files, 166.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libcue_bottle_manifest--2.3.0... (7.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libcue--2.3.0... (33.3KB)
+Removing: /opt/homebrew/Cellar/libidn2/2.3.4_1... (79 files, 1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libidn2_bottle_manifest--2.3.7... (9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libidn2--2.3.7... (329.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libmicrohttpd_bottle_manifest--1.0.1... (18.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libmicrohttpd--1.0.1... (473.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libmpc_bottle_manifest--1.3.1... (10.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libmpc--1.3.1... (142KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.60.0... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libnghttp2--1.60.0... (224KB)
+Removing: /opt/homebrew/Cellar/libpng/1.6.40... (27 files, 1.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libpng_bottle_manifest--1.6.43... (7.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libpng--1.6.43... (449.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/librist_bottle_manifest--0.2.10... (21.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/librist--0.2.10... (207.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libsodium_bottle_manifest--1.0.19... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libsodium--1.0.19... (413.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libssh_bottle_manifest--0.10.6... (9.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libssh--0.10.6... (476.3KB)
+Removing: /opt/homebrew/Cellar/libunibreak/5.1... (17 files, 328.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libunibreak_bottle_manifest--6.1... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libunibreak--6.1... (63.1KB)
+Removing: /opt/homebrew/Cellar/libvmaf/2.3.1... (234 files, 7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libvmaf_bottle_manifest--3.0.0... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libvmaf--3.0.0... (1MB)
+Removing: /opt/homebrew/Cellar/libxext/1.3.5... (87 files, 445.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libxext_bottle_manifest--1.3.6... (11.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libxext--1.3.6... (105.8KB)
+Removing: /opt/homebrew/Cellar/little-cms2/2.15... (21 files, 1.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/little-cms2_bottle_manifest--2.16... (11.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/little-cms2--2.16... (423.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mbedtls_bottle_manifest--3.5.2... (7.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mbedtls--3.5.2... (3.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/mdcat_bottle_manifest--2.1.2... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mdcat--2.1.2... (4.5MB)
+Removing: /opt/homebrew/Cellar/mpdecimal/2.5.1... (71 files, 2.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpdecimal_bottle_manifest--4.0.0-1... (7.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpdecimal--4.0.0... (180.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpfr_bottle_manifest--4.2.1... (8.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpfr--4.2.1... (1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpg123_bottle_manifest--1.32.5... (7.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpg123--1.32.5... (639.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ncdu_bottle_manifest--2.3... (9.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ncdu--2.3... (210.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/neofetch_bottle_manifest--7.1.0-2... (1.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/neofetch--7.1.0... (91.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/node-build_bottle_manifest--4.9.133... (2.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/node-build_bottle_manifest--4.9.138... (2.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/node-build--4.9.138... (315.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/nodenv_bottle_manifest--1.4.1... (14.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/nodenv--1.4.1... (20.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/numpy_bottle_manifest--1.26.4... (15.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/numpy--1.26.4... (8.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openblas_bottle_manifest--0.3.26... (14.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openblas--0.3.26... (15MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openexr_bottle_manifest--3.2.3... (8.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openexr--3.2.3... (1.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openjpeg_bottle_manifest--2.5.2... (13.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openjpeg--2.5.2... (2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@1.1_bottle_manifest--1.1.1w... (10.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.2.0_1... (9.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.2.1-1... (9.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3--3.2.1... (9.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openvino_bottle_manifest--2023.3.0... (19.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openvino--2023.3.0... (23.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/p11-kit_bottle_manifest--0.25.3... (9.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/p11-kit--0.25.3... (965.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pcre2_bottle_manifest--10.43... (8.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pcre2--10.43... (2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/pipx_bottle_manifest--1.4.3-2... (17.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pugixml_bottle_manifest--1.14... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pugixml--1.14... (140.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pyenv_bottle_manifest--2.3.36... (26KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pyenv--2.3.36... (771.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.8... (24KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.12_bottle_manifest--3.12.2_1... (23.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.12--3.12.2_1... (15.8MB)
+Removing: /opt/homebrew/Cellar/rav1e/0.6.6... (14 files, 140.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/rav1e_bottle_manifest--0.7.1... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/rav1e--0.7.1... (11.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/readline_bottle_manifest--8.2.10... (8.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/readline--8.2.10... (575.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/screenresolution_bottle_manifest--1.6... (11.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/screenresolution--1.6... (13KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sdl2_bottle_manifest--2.30.1... (13.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sdl2--2.30.1... (1.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite_bottle_manifest--3.45.1... (8.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite--3.45.1... (2.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/svt-av1_bottle_manifest--1.8.0-1... (7.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/svt-av1--1.8.0... (1.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/tbb_bottle_manifest--2021.11.0-1... (9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/tbb--2021.11.0... (728.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/tesseract_bottle_manifest--5.3.4_1... (36.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/tesseract--5.3.4_1... (12.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/unbound_bottle_manifest--1.19.2... (13.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/unbound--1.19.2... (2.9MB)
+Removing: /opt/homebrew/Cellar/x264/r3095... (11 files, 4.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/x264_bottle_manifest--r3108... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/x264--r3108... (1.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz_bottle_manifest--5.6.1... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz--5.6.1... (688.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp_bottle_manifest--2024.03.10... (17.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2024.03.10... (4.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/zellij_bottle_manifest--0.39.2... (9.1KB)
+Removing: /opt/homebrew/Cellar/zeromq/4.3.4... (83 files, 6.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/zeromq_bottle_manifest--4.3.5_1... (8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zeromq--4.3.5_1... (1.6MB)
+==> Autoremoving 2 unneeded formulae:
+libpthread-stubs
+openssl@1.1
+Uninstalling /opt/homebrew/Cellar/libpthread-stubs/0.4... (5 files, 6.9KB)
+Uninstalling /opt/homebrew/Cellar/openssl@1.1/1.1.1s... (8,101 files, 18MB)
+
+Warning: The following openssl@1.1 configuration files have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/openssl@1.1
+  /opt/homebrew/etc/openssl@1.1/cert.pem
+  /opt/homebrew/etc/openssl@1.1/ct_log_list.cnf
+  /opt/homebrew/etc/openssl@1.1/ct_log_list.cnf.dist
+  /opt/homebrew/etc/openssl@1.1/misc
+  /opt/homebrew/etc/openssl@1.1/misc/CA.pl
+  /opt/homebrew/etc/openssl@1.1/misc/tsget
+  /opt/homebrew/etc/openssl@1.1/misc/tsget.pl
+  /opt/homebrew/etc/openssl@1.1/openssl.cnf
+  /opt/homebrew/etc/openssl@1.1/openssl.cnf.dist
+
+Warning: The following may be openssl@1.1 configuration files and have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/openssl@3
+Removing: /Users/zach/Library/Caches/Homebrew/.DS_Store... (6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-delta--0.16.5... (2.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-3.1.4.arm64_big_sur.bottle.tar.gz... (12.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-delta_bottle_manifest--0.16.5... (9.2KB)
+Removing: /Users/zach/Library/Logs/Homebrew/python@3.12... (2 files, 2KB)
+Removing: /Users/zach/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gcc... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/fontconfig... (67.7KB)
+Removing: /Users/zach/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/unbound... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gnutls... (64B)
+Pruned 0 symbolic links and 4 directories from /opt/homebrew

@@ -1,10 +1,8 @@
 $ brew install exa
 
 Running `brew update --auto-update`...
-
 ==> Auto-updated Homebrew!
 Updated 1 tap (homebrew/core).
-
 ==> Downloading https://ghcr.io/v2/homebrew/core/exa/manifests/0.10.1-3
 ######################################################################## 100.0%
 ==> Downloading https://ghcr.io/v2/homebrew/core/exa/blobs/sha256:621d5ce8d5e8f9841a6191e3246fda50ca4d98fb3a108969157293e4454baa21
@@ -18,3 +16,9 @@ zsh completions have been installed to:
 🍺  /opt/homebrew/Cellar/exa/0.10.1: 12 files, 1.4MB
 ==> Running `brew cleanup exa`...
 
+$ brew uninstall exa
+
+Uninstalling /opt/homebrew/Cellar/exa/0.10.1... (12 files, 1.4MB)
+Warning: The following may be exa configuration files and have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/pkcs11.conf.example

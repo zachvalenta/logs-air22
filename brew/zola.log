@@ -1,0 +1,22 @@
+$ brew install zola
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:e7340e4a1d7cc0f113686e461b93114270848cb14676e9037a1a2ff3b1a0ff32
+############################################################################################### 100.0%
+==> Pouring portable-ruby-3.3.5.arm64_big_sur.bottle.tar.gz
+==> Downloading https://ghcr.io/v2/homebrew/core/zola/manifests/0.19.2
+############################################################################################### 100.0%
+==> Fetching zola
+==> Downloading https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:4d79830a96d63b13b20a05393bf1c194e6d
+############################################################################################### 100.0%
+==> Pouring zola--0.19.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/zola/0.19.2: 12 files, 30.7MB
+==> Running `brew cleanup zola`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).

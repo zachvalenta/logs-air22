@@ -1,0 +1,36 @@
+$ brew install jandedobbeleer/oh-my-posh/oh-my-posh
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Tapping jandedobbeleer/oh-my-posh
+Cloning into '/opt/homebrew/Library/Taps/jandedobbeleer/homebrew-oh-my-posh'...
+remote: Enumerating objects: 4365, done.
+remote: Counting objects: 100% (1494/1494), done.
+remote: Compressing objects: 100% (560/560), done.
+remote: Total 4365 (delta 721), reused 1489 (delta 718), pack-reused 2871 (from 1)
+Receiving objects: 100% (4365/4365), 529.83 KiB | 2.17 MiB/s, done.
+Resolving deltas: 100% (2599/2599), done.
+Tapped 1 cask and 1 formula (19 files, 662KB).
+Warning: Treating jandedobbeleer/oh-my-posh/oh-my-posh as a formula. For the cask, use jandedobbeleer/oh-my-posh/oh-my-posh or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+==> Fetching dependencies for jandedobbeleer/oh-my-posh/oh-my-posh: go@1.22
+==> Fetching go@1.22
+==> Downloading https://ghcr.io/v2/homebrew/core/go/1.22/manifests/1.22.8
+########################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/go/1.22/blobs/sha256:24d9692d879a7f2a28496fa4a56623d6923f165fc785bf34130540bba72f0552
+########################################################################################################################################################################### 100.0%
+==> Fetching jandedobbeleer/oh-my-posh/oh-my-posh
+==> Downloading https://github.com/JanDeDobbeleer/oh-my-posh/archive/v23.15.3.tar.gz
+==> Downloading from https://codeload.github.com/JanDeDobbeleer/oh-my-posh/tar.gz/refs/tags/v23.15.3
+                                  -=O=-                                                                                                      #          #       #      #
+==> Installing oh-my-posh from jandedobbeleer/oh-my-posh
+Error: Your Command Line Tools are too outdated.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 16.0.

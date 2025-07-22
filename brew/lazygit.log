@@ -1,0 +1,80 @@
+$ brew install jesseduffield/lazygit/lazygit
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:20fa657858e44a4b39171d6e4111f8a9716eb62a78ebbd1491d94f90bb7b830a
+########################################################################################################################################################################### 100.0%
+==> Pouring portable-ruby-3.4.5.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 76 outdated formulae installed.
+
+==> Tapping jesseduffield/lazygit
+Cloning into '/opt/homebrew/Library/Taps/jesseduffield/homebrew-lazygit'...
+remote: Enumerating objects: 430, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 430 (delta 12), reused 0 (delta 0), pack-reused 409 (from 2)
+Receiving objects: 100% (430/430), 68.26 KiB | 1.84 MiB/s, done.
+Resolving deltas: 100% (277/277), done.
+Tapped 1 formula (14 files, 87.1KB).
+==> Fetching downloads for: lazygit
+==> Fetching jesseduffield/lazygit/lazygit
+==> Downloading https://github.com/jesseduffield/lazygit/releases/download/v0.53.0/lazygit_0.53.0_Darwin_arm64.tar.gz
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/134017286/cd6a6774-ad91-4690-b191-c384895f9b6c?sp=r&sv=2018-11-09&sr=b&spr=https
+########################################################################################################################################################################### 100.0%
+==> Installing lazygit from jesseduffield/lazygit
+Error: Your Command Line Tools are too outdated.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 16.4.
+
+$ xcode-select --print-path
+/Library/Developer/CommandLineTools
+
+$ sudo rm -rf /Library/Developer/CommandLineTools
+Password:
+
+$ sudo xcode-select --install
+xcode-select: note: install requested for command line developer tools
+
+$ brew install jesseduffield/lazygit/lazygit
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Fetching downloads for: lazygit
+==> Fetching jesseduffield/lazygit/lazygit
+==> Downloading https://github.com/jesseduffield/lazygit/releases/download/v0.53.0/lazygit_0.53.0_Darwin_arm64.tar.gz
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/95766cb54397e4b7d01981f085702a3cc2c647f080c1e53273b1da8289d81659--lazygit_0.53.0_Darwin_arm64.tar.gz
+==> Installing lazygit from jesseduffield/lazygit
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 16.4.
+
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document instead before opening any issues or PRs.
+
+🍺  /opt/homebrew/Cellar/lazygit/0.53.0: 6 files, 20.4MB, built in 4 seconds
+==> Running `brew cleanup lazygit`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/db179102286f8d8c783210e6c7fc906399381061d0aacd5d2af9f9dbe5c14e9b... (568 files, 4.7MB)
+Removing: /Users/zach/Library/Logs/Homebrew/net-snmp... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/fontconfig... (154.5KB)

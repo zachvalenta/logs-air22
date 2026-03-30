@@ -172,3 +172,18 @@ Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-3.4.5.arm64_big_sur.
 Removing: /Users/zach/Library/Caches/Homebrew/Cask/claude--2.1.44... (183.4MB)
 Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/b398a48f8ba83ea2e8b1f255b1e09c4ea8ed2874200563c348cc34030e67c441... (641 files, 5.3MB)
 Removing: /Users/zach/Library/Logs/Homebrew/lazygit... (125B)
+
+$ brew upgrade claude-code
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Fetching downloads for: claude-code
+✔︎ Cask claude-code (2.1.87)                                  Verified    196.6MB/196.6MB
+==> Upgrading 1 outdated package:
+claude-code 2.1.44 -> 2.1.87
+==> Upgrading claude-code
+  2.1.44 -> 2.1.87
+==> Unlinking Binary '/opt/homebrew/bin/claude'
+==> Linking Binary 'claude' to '/opt/homebrew/bin/claude'
+==> Purging files for version 2.1.44 of Cask claude-code
+🍺  claude-code was successfully upgraded!

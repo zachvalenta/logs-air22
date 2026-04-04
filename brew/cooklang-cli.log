@@ -1,0 +1,29 @@
+$ brew install cookcli
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:f41c72b891c40623f9d5cd2135f58a1b8a5c014ae04149888289409316276c72
+########################################################################################################################################################################### 100.0%
+==> Pouring portable-ruby-4.0.2_1.arm64_big_sur.bottle.tar.gz
+==> Fetching downloads for: cookcli
+✔︎ Bottle Manifest cookcli (0.27.2)                                                                                                                     Downloaded    9.5KB/  9.5KB
+✔︎ Bottle Manifest ca-certificates (2026-03-19)                                                                                                         Downloaded    2.0KB/  2.0KB
+✔︎ Bottle Manifest openssl@3 (3.6.1)                                                                                                                    Downloaded   11.8KB/ 11.8KB
+✔︎ Bottle ca-certificates (2026-03-19)                                                                                                                  Downloaded  132.4KB/132.4KB
+✔︎ Bottle cookcli (0.27.2)                                                                                                                              Downloaded    9.8MB/  9.8MB
+✔︎ Bottle openssl@3 (3.6.1)                                                                                                                             Downloaded   10.9MB/ 10.9MB
+==> Installing dependencies for cookcli: ca-certificates and openssl@3
+==> Installing cookcli dependency: ca-certificates
+==> Pouring ca-certificates--2026-03-19.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-03-19: 4 files, 237.5KB
+==> Installing cookcli dependency: openssl@3
+==> Pouring openssl@3--3.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.1: 7,624 files, 37.6MB
+==> Installing cookcli
+==> Pouring cookcli--0.27.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cookcli/0.27.2: 9 files, 19.6MB
+==> Running `brew cleanup cookcli`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).

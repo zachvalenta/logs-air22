@@ -1,0 +1,16 @@
+$ brew install gum
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Fetching downloads for: gum
+✔︎ Bottle Manifest gum (0.17.0)                                                                                                                         Downloaded    9.5KB/  9.5KB
+✔︎ Bottle gum (0.17.0)                                                                                                                                  Downloaded    4.3MB/  4.3MB
+==> Pouring gum--0.17.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gum/0.17.0: 10 files, 13.5MB
+==> Running `brew cleanup gum`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions

@@ -1,0 +1,23 @@
+$ brew install zk
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 131 outdated formulae and 1 outdated cask installed.
+
+==> Fetching downloads for: zk
+✔︎ Bottle Manifest zk (0.15.4)                                   Downloaded    9.7KB/  9.7KB
+✔︎ Bottle Manifest icu4c@78 (78.3)                               Downloaded    9.7KB/  9.7KB
+✔︎ Bottle zk (0.15.4)                                            Downloaded    4.8MB/  4.8MB
+✔︎ Bottle icu4c@78 (78.3)                                        Downloaded   32.0MB/ 32.0MB
+==> Installing zk dependency: icu4c@78
+==> Pouring icu4c@78--78.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.3: 279 files, 87.9MB
+==> Pouring zk--0.15.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zk/0.15.4: 7 files, 11.8MB
+==> Running `brew cleanup zk`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).

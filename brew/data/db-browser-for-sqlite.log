@@ -1,0 +1,18 @@
+$ brew install db-browser-for-sqlite
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:4ba8d535df01e4bf97e6661c3815796fd77364ea2552606e891659133a76f0e1
+############################################################################################################ 100.0%
+==> Pouring portable-ruby-4.0.5_1.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 133 outdated formulae and 1 outdated cask installed.
+
+==> Fetching downloads for: db-browser-for-sqlite
+✔︎ Cask db-browser-for-sqlite (3.13.1)                                                   Verified     45.6MB/ 45.6MB
+==> Installing Cask db-browser-for-sqlite
+==> Moving App 'DB Browser for SQLite.app' to '/Applications/DB Browser for SQLite.app'
+🍺  db-browser-for-sqlite was successfully installed!

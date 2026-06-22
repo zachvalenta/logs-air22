@@ -1,0 +1,34 @@
+$ brew install git-filter-repo
+✔︎ JSON API packages.arm64_sequoia.jws.json                                                                                                             Downloaded   15.2MB/ 15.2MB
+Warning: The following taps are not trusted:
+  eddieantonio/eddieantonio
+  jandedobbeleer/oh-my-posh
+  jesseduffield/lazygit
+  terrastruct/d2
+
+Homebrew is currently ignoring formulae, casks and commands from these taps because tap trust is required.
+Trust specific formulae, casks or commands with:
+  brew trust --formula <user>/<tap>/<formula>
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+or trust installed formulae from these taps with:
+  brew trust --formula eddieantonio/eddieantonio/imgcat
+You can trust all formulae, casks and commands from these taps with:
+  brew trust eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/d2
+Prefer trusting only the specific formulae, casks or commands you need.
+Untap them with:
+  brew untap eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/d2
+To disable trust checks:
+  export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
+This is not recommended and will be removed in a later release.
+==> Would install 1 formula:
+git-filter-repo
+==> Downloading https://ghcr.io/v2/homebrew/core/git-filter-repo/manifests/2.47.0-1
+########################################################################################################################################################################### 100.0%
+==> Fetching downloads for: git-filter-repo
+✔︎ Bottle git-filter-repo (2.47.0)                                                                                                                      Downloaded  101.9KB/101.9KB
+==> Pouring git-filter-repo--2.47.0.all.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/git-filter-repo/2.47.0: 9 files, 361.5KB
+==> Running `brew cleanup git-filter-repo`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).

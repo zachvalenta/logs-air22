@@ -187,3 +187,47 @@ claude-code 2.1.44 -> 2.1.87
 ==> Linking Binary 'claude' to '/opt/homebrew/bin/claude'
 ==> Purging files for version 2.1.44 of Cask claude-code
 🍺  claude-code was successfully upgraded!
+
+$ brew upgrade claude-code
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+✔︎ JSON API packages.arm64_sequoia.jws.json                                                                                                             Downloaded   15.2MB/ 15.2MB
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 134 outdated formulae and 1 outdated cask installed.
+Warning: Skipping eddieantonio/eddieantonio because it is not trusted. Run `brew trust eddieantonio/eddieantonio` to trust it.
+Warning: Skipping jandedobbeleer/oh-my-posh because it is not trusted. Run `brew trust jandedobbeleer/oh-my-posh` to trust it.
+Warning: Skipping terrastruct/d2 because it is not trusted. Run `brew trust terrastruct/d2` to trust it.
+Warning: Skipping jandedobbeleer/oh-my-posh because it is not trusted. Run `brew trust jandedobbeleer/oh-my-posh` to trust it.
+
+==> Would upgrade 1 outdated package
+claude-code 2.1.87 -> 2.1.176
+==> Fetching downloads for: claude-code
+✔︎ Cask claude-code (2.1.176)                                                                                                                           Verified    225.1MB/225.1MB
+==> Upgrading claude-code
+  2.1.87 -> 2.1.176
+==> Unlinking Binary '/opt/homebrew/bin/claude'
+==> Linking Binary 'claude' to '/opt/homebrew/bin/claude'
+==> Purging files for version 2.1.87 of Cask claude-code
+🍺  claude-code was successfully upgraded!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Autoremoving 1 unneeded formula:
+jpeg
+Uninstalling /opt/homebrew/Cellar/jpeg/9e... (21 files, 926.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-4.0.3.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/claude--2.1.176... (225.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/486642c4537c43cd53394cb601f180d78bab6134addf25b56521e9246c561720... (652 files, 6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/c29b3fff91d5026f5f82a69332d3d90a447e8be4921c2e4ed7d63c04dc8a78b6... (654 files, 6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/901322dc6519043c0dc5100dc16cf5e4e2663478e9d1fc35fa74caa85406536e... (1,025 files, 9MB)
+Removing: /Users/zach/Library/Logs/Homebrew/zk... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gum... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/icu4c@78... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/cookcli... (64B)
+==> Upgraded 1 outdated package
+claude-code 2.1.87 -> 2.1.176

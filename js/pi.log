@@ -1,0 +1,9 @@
+$ bun add -g @earendil-works/pi-coding-agent
+bun add v1.3.14 (0d9b296a)
+
+installed @earendil-works/pi-coding-agent@0.80.2 with binaries:
+ - pi
+
+128 packages installed [3.48s]
+
+Blocked 2 postinstalls. Run `bun pm -g untrusted` for details.

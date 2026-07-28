@@ -1,0 +1,7 @@
+bun install -g opencode-ai
+bun add v1.3.14 (0d9b296a)
+
+installed opencode-ai@1.18.8 with binaries:
+ - opencode
+
+2 packages installed [5.75s]

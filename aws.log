@@ -1,0 +1,15 @@
+$ curl -fsSL https://awscli.amazonaws.com/v2/install.sh | bash
+Resolving user-local install paths:
+  HOME=/Users/zach
+  XDG_DATA_HOME=<unset, using default>
+  XDG_BIN_HOME=<unset, using default>
+Installing AWS CLI 2.36.23
+Downloading AWS CLI installer from https://awscli.amazonaws.com/AWSCLIV2-2.36.23.pkg?src=script-exe
+######################################################################## 100.0%
+PKG code signature verified (team 94KV3E626L).
+installer: Package name is AWS Command Line Interface
+installer: choices changes file '/var/folders/r9/smwz67_s3bd15_9m_3x__g3c0000gn/T/tmp.ZaO39ja2co/choices.xml' applied
+installer: Installing at base path /Users/zach
+installer: The install was successful.
+AWS CLI 2.36.23 installed to /Users/zach/.local/share/aws-cli
+Ensure /Users/zach/.local/bin is on your PATH. When multiple installs exist, PATH order determines which 'aws' runs.

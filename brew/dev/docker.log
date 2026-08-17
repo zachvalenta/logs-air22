@@ -1,0 +1,41 @@
+brew install docker
+==> Downloading Homebrew API data
+✔︎ JSON API packages.arm64_sequoia.jws.json                  Downloaded   15.6MB/ 15.6MB
+Warning: The following taps are not trusted:
+  eddieantonio/eddieantonio
+  jandedobbeleer/oh-my-posh
+  jesseduffield/lazygit
+  terrastruct/tap
+
+Homebrew is currently ignoring formulae, casks and commands from these taps because tap trust is required.
+
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula eddieantonio/eddieantonio/imgcat
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+Untap them with:
+  brew untap eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+To disable trust checks:
+  export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
+This is not recommended and will be removed in a later release.
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest docker (29.7.2)                           Downloaded   15.3KB/ 15.3KB
+==> Would install 1 formula:
+docker
+==> Fetching downloads for: docker
+✔︎ Bottle docker (29.7.2)                                    Downloaded    9.3MB/  9.3MB
+==> Pouring docker--29.7.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/docker/29.7.2: 17 files, 28.1MB
+==> Running `brew cleanup docker`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions

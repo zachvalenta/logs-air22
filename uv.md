@@ -42,3 +42,18 @@ pypy-3.8.16-macos-aarch64-none                       <download available>
 uv run python --version  # Python 3.10.1
 uv run python -c "import sys; print(sys.executable)"  # /Users/zach/.pyenv/versions/3.10.1/bin/python
 ```
+
+# 3.14
+
+```sh
+uv python dir  # /Users/zach/.local/share/uv/python
+uv python install 3.14  # Installed Python 3.14.7 in 1.73s + cpython-3.14.7-macos-aarch64-none (python3.14)
+
+uv venv --python 3.14
+# Using CPython 3.14.7
+# Creating virtual environment at: .venv
+# Activate with: source .venv/bin/activate
+
+uv run python -c "import ssl, lzma; print('no problems here')"  # no problems here
+uv run python --version  # Python 3.14.7
+```

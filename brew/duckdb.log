@@ -1,0 +1,63 @@
+$ brew install duckdb
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:e0088dff5614b39387300136ec7a5f95bf1e07589547245c919524fc9e8b4197
+########################################################################################################################################################################### 100.0%
+==> Pouring portable-ruby-4.0.7.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 2 taps (dagger/tap and jandedobbeleer/oh-my-posh).
+
+You have 141 outdated formulae and 1 outdated cask installed.
+
+Warning: The following taps are not trusted:
+  eddieantonio/eddieantonio
+  jandedobbeleer/oh-my-posh
+  jesseduffield/lazygit
+  terrastruct/tap
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula eddieantonio/eddieantonio/imgcat
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+Untap them with:
+  brew untap eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest duckdb (1.5.5)                                                                                                                      Downloaded   18.6KB/ 18.6KB
+==> Would install 1 formula:
+duckdb 1.5.5
+==> Fetching downloads for: duckdb
+✔︎ Bottle duckdb (1.5.5)                                                                                                                               Downloaded   50.6MB/ 50.6MB
+==> Pouring duckdb--1.5.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/duckdb/1.5.5: 1,368 files, 200.8MB
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates--2026-03-19... (132.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2026-03-19... (2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/cookcli--0.27.2... (9.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/cookcli_bottle_manifest--0.27.2... (9.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gh--2.92.0... (13.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gh_bottle_manifest--2.92.0... (7.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gum--0.17.0... (4.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gum_bottle_manifest--0.17.0... (9.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c@78--78.3... (32.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c@78_bottle_manifest--78.3... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3--3.6.1... (10.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.1... (11.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zk--0.15.4... (4.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/zk_bottle_manifest--0.15.4... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-4.0.6.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/api/formula/cmus.json... (3.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/e298d09ce383e614c780fa9d8c85003a8a8837c3aa47aca90a8be1de5482c665... (1,069 files, 9.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/34de6cb0fb04e1502e337b70e77119dd5ca691bf4ebe0c8a8a0aecd4430c66e7... (1,063 files, 9.7MB)
+Removing: /Users/zach/Library/Logs/Homebrew/dagger... (113B)

@@ -1662,3 +1662,179 @@ Or, if you don't want/need a background service you can just run:
 ==> eza
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+
+brew upgrade yt-dlp
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Warning: The following taps are not trusted:
+  eddieantonio/eddieantonio
+  jandedobbeleer/oh-my-posh
+  jesseduffield/lazygit
+  terrastruct/tap
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula eddieantonio/eddieantonio/imgcat
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+Untap them with:
+  brew untap eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest yt-dlp (2026.8.19_1)                                                                                                                Downloaded  153.6KB/153.6KB
+==> Would install 4 dependencies:
+pycparser    3.0
+cffi         2.1.1
+deno         2.9.7
+python@3.14  3.14.7
+==> Would upgrade 14 dependencies:
+ca-certificates  2026-03-19 -> 2026-09-25
+certifi          2025.4.26  -> 2026.7.22
+jpeg-turbo       3.1.0      -> 3.2.0
+giflib           5.2.2      -> 6.1.3
+libpng           1.6.48     -> 1.6.58
+webp             1.5.0      -> 1.6.0
+xz               5.8.1      -> 5.8.4
+zstd             1.5.7      -> 1.5.7_1
+libtiff          4.7.0      -> 4.7.2
+little-cms2      2.17       -> 2.19.1
+readline         8.2.13     -> 8.3.6
+sqlite           3.49.2     -> 3.53.4
+mpdecimal        4.0.0      -> 4.0.1
+openssl@3        3.6.1      -> 3.6.4
+==> Would upgrade 1 requested outdated package
+yt-dlp 2025.4.30 -> 2026.8.19_1 (8.1MB)
+==> Do you want to proceed with the upgrade? [y/n]
+==> Fetching downloads for: yt-dlp
+✔︎ Bottle Manifest certifi (2026.7.22)                                                                                                                 Downloaded   14.7KB/ 14.7KB
+✔︎ Bottle certifi (2026.7.22)                                                                                                                          Downloaded    6.5KB/  6.5KB
+✔︎ Bottle Manifest pycparser (3.0)                                                                                                                     Downloaded    2.0KB/  2.0KB
+✔︎ Bottle ca-certificates (2026-09-25)                                                                                                                 Downloaded  112.2KB/112.2KB
+✔︎ Bottle Manifest ca-certificates (2026-09-25)                                                                                                        Downloaded    8.1KB/  8.1KB
+✔︎ Bottle Manifest cffi (2.1.1)                                                                                                                        Downloaded   32.8KB/ 32.8KB
+✔︎ Bottle Manifest jpeg-turbo (3.2.0)                                                                                                                  Downloaded   16.8KB/ 16.8KB
+✔︎ Bottle Manifest giflib (6.1.3)                                                                                                                      Downloaded   13.2KB/ 13.2KB
+✔︎ Bottle Manifest libpng (1.6.58)                                                                                                                     Downloaded   15.9KB/ 15.9KB
+✔︎ Bottle Manifest webp (1.6.0)                                                                                                                        Downloaded   32.5KB/ 32.5KB
+✔︎ Bottle Manifest xz (5.8.4)                                                                                                                          Downloaded   14.6KB/ 14.6KB
+✔︎ Bottle giflib (6.1.3)                                                                                                                               Downloaded  141.8KB/141.8KB
+✔︎ Bottle pycparser (3.0)                                                                                                                              Downloaded  103.8KB/103.8KB
+✔︎ Bottle Manifest zstd (1.5.7_1)                                                                                                                      Downloaded   17.8KB/ 17.8KB
+✔︎ Bottle Manifest libtiff (4.7.2)                                                                                                                     Downloaded   64.2KB/ 64.2KB
+✔︎ Bottle Manifest little-cms2 (2.19.1)                                                                                                                Downloaded   67.1KB/ 67.1KB
+✔︎ Bottle Manifest readline (8.3.6)                                                                                                                    Downloaded   15.3KB/ 15.3KB
+✔︎ Bottle cffi (2.1.1)                                                                                                                                 Downloaded  354.1KB/354.1KB
+✔︎ Bottle libpng (1.6.58)                                                                                                                              Downloaded  460.4KB/460.4KB
+✔︎ Bottle Manifest sqlite (3.53.4)                                                                                                                     Downloaded   35.4KB/ 35.4KB
+✔︎ Bottle Manifest deno (2.9.7)                                                                                                                        Downloaded   74.5KB/ 74.5KB
+✔︎ Bottle xz (5.8.4)                                                                                                                                   Downloaded  789.7KB/789.7KB
+✔︎ Bottle little-cms2 (2.19.1)                                                                                                                         Downloaded  436.6KB/436.6KB
+✔︎ Bottle webp (1.6.0)                                                                                                                                 Downloaded  897.6KB/897.6KB
+✔︎ Bottle Manifest mpdecimal (4.0.1)                                                                                                                   Downloaded   16.6KB/ 16.6KB
+✔︎ Bottle zstd (1.5.7_1)                                                                                                                               Downloaded  794.7KB/794.7KB
+✔︎ Bottle jpeg-turbo (3.2.0)                                                                                                                           Downloaded    1.4MB/  1.4MB
+✔︎ Bottle readline (8.3.6)                                                                                                                             Downloaded  757.3KB/757.3KB
+✔︎ Bottle Manifest openssl@3 (3.6.4)                                                                                                                   Downloaded   24.0KB/ 24.0KB
+✔︎ Bottle Manifest python@3.14 (3.14.7)                                                                                                                Downloaded  128.4KB/128.4KB
+✔︎ Bottle mpdecimal (4.0.1)                                                                                                                            Downloaded  185.1KB/185.1KB
+✔︎ Bottle libtiff (4.7.2)                                                                                                                              Downloaded    2.0MB/  2.0MB
+✔︎ Bottle sqlite (3.53.4)                                                                                                                              Downloaded    2.5MB/  2.5MB
+✔︎ Bottle yt-dlp (2026.8.19_1)                                                                                                                         Downloaded    8.1MB/  8.1MB
+✔︎ Bottle openssl@3 (3.6.4)                                                                                                                            Downloaded   11.0MB/ 11.0MB
+✔︎ Bottle python@3.14 (3.14.7)                                                                                                                         Downloaded   19.2MB/ 19.2MB
+✔︎ Bottle deno (2.9.7)                                                                                                                                 Downloaded   45.2MB/ 45.2MB
+==> Upgrading yt-dlp
+  2025.4.30 -> 2026.8.19_1
+==> Installing dependencies for yt-dlp: ca-certificates ↑, certifi ↑, pycparser, cffi, jpeg-turbo ↑, giflib ↑, libpng ↑, webp ↑, xz ↑, zstd ↑, libtiff ↑, little-cms2 ↑, readline ↑, sqlite ↑, deno, mpdecimal ↑, openssl@3 ↑ and python@3.14
+==> Upgrading yt-dlp dependency: ca-certificates
+==> Pouring ca-certificates--2026-09-25.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-09-25: 5 files, 204.4KB
+==> Upgrading yt-dlp dependency: certifi
+==> Pouring certifi--2026.7.22.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2026.7.22: 44 files, 21.9KB
+==> Installing yt-dlp dependency: pycparser
+==> Pouring pycparser--3.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pycparser/3.0: 53 files, 464.8KB
+==> Installing yt-dlp dependency: cffi
+==> Pouring cffi--2.1.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cffi/2.1.1: 71 files, 1.2MB
+==> Upgrading yt-dlp dependency: jpeg-turbo
+==> Pouring jpeg-turbo--3.2.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.2.0: 47 files, 4.2MB
+==> Upgrading yt-dlp dependency: giflib
+==> Pouring giflib--6.1.3.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/giflib/6.1.3: 19 files, 496.4KB
+==> Upgrading yt-dlp dependency: libpng
+==> Pouring libpng--1.6.58.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.58: 28 files, 1.4MB
+==> Upgrading yt-dlp dependency: webp
+==> Pouring webp--1.6.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/webp/1.6.0: 64 files, 2.5MB
+==> Upgrading yt-dlp dependency: xz
+==> Pouring xz--5.8.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.8.4: 96 files, 2.7MB
+==> Upgrading yt-dlp dependency: zstd
+==> Pouring zstd--1.5.7_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zstd/1.5.7_1: 32 files, 2.3MB
+==> Upgrading yt-dlp dependency: libtiff
+==> Pouring libtiff--4.7.2.arm64_sequoia.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.2: 493 files, 9.0MB
+==> Upgrading yt-dlp dependency: little-cms2
+==> Pouring little-cms2--2.19.1.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.19.1: 23 files, 1.4MB
+==> Upgrading yt-dlp dependency: readline
+==> Pouring readline--8.3.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.3.6: 56 files, 2.6MB
+==> Upgrading yt-dlp dependency: sqlite
+==> Pouring sqlite--3.53.4.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.4: 13 files, 5.3MB
+==> Installing yt-dlp dependency: deno
+==> Pouring deno--2.9.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.9.7: 12 files, 130.3MB
+==> Upgrading yt-dlp dependency: mpdecimal
+==> Pouring mpdecimal--4.0.1.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/mpdecimal/4.0.1: 22 files, 625.5KB
+==> Upgrading yt-dlp dependency: openssl@3
+==> Pouring openssl@3--3.6.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.4: 7,639 files, 37.8MB
+==> Installing yt-dlp dependency: python@3.14
+==> Pouring python@3.14--3.14.7.arm64_sequoia.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/opt/homebrew/bin/idle3
+/opt/homebrew/bin/pip3
+/opt/homebrew/bin/pydoc3
+/opt/homebrew/bin/python3
+/opt/homebrew/bin/python3-config
+/opt/homebrew/bin/wheel3
+/opt/homebrew/share/man/man1/python3.1
+/opt/homebrew/lib/pkgconfig/python3-embed.pc
+/opt/homebrew/lib/pkgconfig/python3.pc
+/opt/homebrew/Frameworks/Python.framework/Headers
+/opt/homebrew/Frameworks/Python.framework/Python
+/opt/homebrew/Frameworks/Python.framework/Resources
+/opt/homebrew/Frameworks/Python.framework/Versions/Current
+
+They have been backed up to: /Users/zach/Library/Caches/Homebrew/Backup
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.7: 3,776 files, 74.4MB
+==> Installing yt-dlp
+==> Pouring yt-dlp--2026.8.19_1.arm64_sequoia.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2026.8.19_1: 1,736 files, 27.8MB
+==> Cleanup
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.4.30... (1,728 files, 20.3MB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Upgraded 1 requested outdated package
+yt-dlp 2025.4.30 -> 2026.8.19_1

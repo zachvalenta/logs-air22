@@ -57,3 +57,32 @@ uv venv --python 3.14
 uv run python -c "import ssl, lzma; print('no problems here')"  # no problems here
 uv run python --version  # Python 3.14.7
 ```
+
+# ipython
+
+uv pip install --user --python 3.12 ipython  # error: pip's `--user` is unsupported (use a virtual environment instead)
+uv pip install --system --user --python 3.12 ipython  # error: pip's `--user` is unsupported (use a virtual environment instead)
+
+uv tool install --python 3.14 ipython
+
+uv tool install --python 3.14 ipython
+Resolved 16 packages in 665ms
+Prepared 16 packages in 2.98s
+Installed 16 packages in 119ms
+ + asttokens==3.0.2
+ + executing==2.2.1
+ + ipython==9.17.1
+ + ipython-pygments-lexers==1.1.1
+ + jedi==0.20.0
+ + matplotlib-inline==0.2.2
+ + parso==0.8.7
+ + pexpect==4.9.0
+ + prompt-toolkit==3.0.53
+ + psutil==7.2.2
+ + ptyprocess==0.7.0
+ + pure-eval==0.2.4
+ + pygments==2.21.0
+ + stack-data==0.6.3
+ + traitlets==5.16.1
+ + wcwidth==0.9.2
+Installed 2 executables: ipython, ipython3

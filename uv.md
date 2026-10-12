@@ -86,3 +86,11 @@ Installed 16 packages in 119ms
  + traitlets==5.16.1
  + wcwidth==0.9.2
 Installed 2 executables: ipython, ipython3
+
+# numpy
+uv tool install --python 3.14 numpy
+Resolved 1 package in 600ms
+Prepared 1 package in 1.13s
+Installed 1 package in 13ms
+ + numpy==2.5.4
+Installed 2 executables: f2py, numpy-config

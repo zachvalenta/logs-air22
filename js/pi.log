@@ -24,3 +24,14 @@ Updated pi from 0.80.2 to 1.2.0
 
 $ pi --version
 1.2.0
+
+$ pi update
+Extensions are skipped. Run pi update --extensions to update extensions.
+Updating pi with bun install -g --ignore-scripts --minimum-release-age=0 @earendil-works/pi-coding-agent@1.4.0...
+bun add v1.3.14 (0d9b296a)
+
+installed @earendil-works/pi-coding-agent@1.4.0 with binaries:
+ - pi
+
+8 packages installed [1500.00ms]
+Updated pi from 1.2.0 to 1.4.0

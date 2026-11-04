@@ -1,0 +1,63 @@
+cargo install bttf
+
+    Updating crates.io index
+  Downloaded bttf v0.1.4
+  Downloaded 1 crate (157.7KiB) in 0.30s
+  Installing bttf v0.1.4
+    Updating crates.io index
+     Locking 42 packages to latest compatible versions
+  Downloaded defmt v1.2.0
+  Downloaded anyhow v1.0.104
+  Downloaded jiff-static v0.2.39
+  Downloaded defmt-parser v1.1.0
+  Downloaded defmt-macros v1.2.0
+  Downloaded thiserror v2.0.21
+  Downloaded unicode-ident v1.0.27
+  Downloaded textwrap v0.16.4
+  Downloaded log v0.4.35
+  Downloaded flume v0.12.0
+  Downloaded jiff-tzdb v0.1.9
+  Downloaded thiserror-impl v2.0.21
+  Downloaded spin v0.9.9
+  Downloaded jiff-core v0.1.2
+  Downloaded serde_json v1.0.154
+  Downloaded regex v1.13.1
+  Downloaded aho-corasick v1.1.5
+  Downloaded memmap2 v0.9.12
+  Downloaded lexopt v0.3.2
+  Downloaded syn v3.0.9
+  Downloaded regex-syntax v0.8.11
+  Downloaded bstr v1.13.1
+  Downloaded regex-automata v0.4.18
+  Downloaded jiff v0.2.39
+  Downloaded libc v0.2.191
+  Downloaded 25 crates (4.2MiB) in 0.92s
+   Compiling log v0.4.35
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling scopeguard v1.2.0
+   Compiling libc v0.2.191
+   Compiling regex-syntax v0.8.11
+   Compiling serde v1.0.229
+   Compiling anyhow v1.0.104
+   Compiling lock_api v0.4.14
+   Compiling memchr v2.8.3
+   Compiling serde_json v1.0.154
+   Compiling aho-corasick v1.1.5
+   Compiling spin v0.9.9
+   Compiling jiff-core v0.1.2
+   Compiling bttf v0.1.4
+   Compiling jiff-tzdb v0.1.9
+   Compiling itoa v1.0.18
+   Compiling flume v0.12.0
+   Compiling regex-automata v0.4.18
+   Compiling anstyle v1.0.14
+   Compiling textwrap v0.16.4
+   Compiling memmap2 v0.9.12
+   Compiling lexopt v0.3.2
+   Compiling jiff v0.2.39
+   Compiling bstr v1.13.1
+   Compiling regex v1.13.1
+    Finished `release` profile [optimized + debuginfo] target(s) in 28.03s
+  Installing /Users/zach/.cargo/bin/bttf
+   Installed package `bttf v0.1.4` (executable `bttf`)

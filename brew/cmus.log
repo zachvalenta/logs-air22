@@ -1,0 +1,174 @@
+brew upgrade cmus
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 1 tap (dagger/tap).
+
+You have 144 outdated formulae and 1 outdated cask installed.
+
+Warning: The following taps are not trusted:
+  eddieantonio/eddieantonio
+  jandedobbeleer/oh-my-posh
+  jesseduffield/lazygit
+  terrastruct/tap
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula eddieantonio/eddieantonio/imgcat
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+Untap them with:
+  brew untap eddieantonio/eddieantonio jandedobbeleer/oh-my-posh jesseduffield/lazygit terrastruct/tap
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+
+==> Downloading bottle manifests
+✔︎ Bottle Manifest cmus (2.13.0)                                                                                                                       Downloaded  211.2KB/211.2KB
+==> Would install 2 dependencies:
+openssl@4  4.1.0
+sdl3       3.4.20
+==> Would upgrade 17 dependencies:
+faad2            2.11.1     -> 2.11.4
+dav1d            1.5.1      -> 1.5.4
+mpg123           1.32.10    -> 1.33.7
+lame             3.100      -> 4.0
+libvmaf          3.0.0      -> 3.2.1
+libvpx           1.15.1     -> 1.17.0
+ca-certificates  2026-09-25 -> 2026-11-05
+opus             1.5.2      -> 1.6.1
+sdl2-compat      2.32.6     -> 2.32.74
+svt-av1          3.0.2      -> 4.3.0
+x264             r3108      -> r3222
+x265             4.1        -> 4.3
+ffmpeg           7.1.1_2    -> 9.0.2_1
+libogg           1.3.5      -> 1.3.6
+mad              0.15.1b    -> 0.16.5
+ncurses          6.5        -> 6.6
+opusfile         0.12_1     -> 0.12_3
+==> Would upgrade 1 requested outdated package
+cmus 2.12.0_1 -> 2.13.0 (256.4KB)
+==> Do you want to proceed with the upgrade? [y/n]
+==> Fetching downloads for: cmus
+✔︎ Bottle Manifest faad2 (2.11.4)                                                                                                                      Downloaded   13.3KB/ 13.3KB
+✔︎ Bottle Manifest dav1d (1.5.4)                                                                                                                       Downloaded   17.4KB/ 17.4KB
+✔︎ Bottle Manifest mpg123 (1.33.7)                                                                                                                     Downloaded   14.6KB/ 14.6KB
+✔︎ Bottle Manifest lame (4.0)                                                                                                                          Downloaded   26.4KB/ 26.4KB
+✔︎ Bottle Manifest libvmaf (3.2.1)                                                                                                                     Downloaded   14.1KB/ 14.1KB
+✔︎ Bottle Manifest libvpx (1.17.0)                                                                                                                     Downloaded   12.8KB/ 12.8KB
+✔︎ Bottle Manifest ca-certificates (2026-11-05)                                                                                                        Downloaded    8.1KB/  8.1KB
+✔︎ Bottle Manifest opus (1.6.1)                                                                                                                        Downloaded    9.6KB/  9.6KB
+✔︎ Bottle Manifest openssl@4 (4.1.0)                                                                                                                   Downloaded   19.6KB/ 19.6KB
+✔︎ Bottle Manifest sdl3 (3.4.20)                                                                                                                       Downloaded  110.9KB/110.9KB
+✔︎ Bottle Manifest sdl2-compat (2.32.74)                                                                                                               Downloaded  116.9KB/116.9KB
+✔︎ Bottle Manifest x264 (r3222)                                                                                                                        Downloaded   12.2KB/ 12.2KB
+✔︎ Bottle Manifest svt-av1 (4.3.0)                                                                                                                     Downloaded   13.2KB/ 13.2KB
+✔︎ Bottle Manifest x265 (4.3)                                                                                                                          Downloaded   13.9KB/ 13.9KB
+✔︎ Bottle Manifest ffmpeg (9.0.2_1)                                                                                                                    Downloaded  180.4KB/180.4KB
+✔︎ Bottle Manifest libogg (1.3.6)                                                                                                                      Downloaded   11.7KB/ 11.7KB
+✔︎ Bottle Manifest mad (0.16.5)                                                                                                                        Downloaded   12.9KB/ 12.9KB
+✔︎ Bottle Manifest opusfile (0.12_3)                                                                                                                   Downloaded   34.0KB/ 34.0KB
+✔︎ Bottle Manifest ncurses (6.6)                                                                                                                       Downloaded   20.0KB/ 20.0KB
+✔︎ Bottle dav1d (1.5.4)                                                                                                                                Downloaded  393.3KB/393.3KB
+✔︎ Bottle cmus (2.13.0)                                                                                                                                Downloaded  256.4KB/256.4KB
+✔︎ Bottle faad2 (2.11.4)                                                                                                                               Downloaded  328.4KB/328.4KB
+✔︎ Bottle mpg123 (1.33.7)                                                                                                                              Downloaded  651.4KB/651.4KB
+✔︎ Bottle lame (4.0)                                                                                                                                   Downloaded  669.4KB/669.4KB
+✔︎ Bottle ca-certificates (2026-11-05)                                                                                                                 Downloaded  109.6KB/109.6KB
+✔︎ Bottle opus (1.6.1)                                                                                                                                 Downloaded  505.3KB/505.3KB
+✔︎ Bottle libvmaf (3.2.1)                                                                                                                              Downloaded    1.3MB/  1.3MB
+✔︎ Bottle libvpx (1.17.0)                                                                                                                              Downloaded    1.9MB/  1.9MB
+✔︎ Bottle sdl2-compat (2.32.74)                                                                                                                        Downloaded  641.7KB/641.7KB
+✔︎ Bottle mad (0.16.5)                                                                                                                                 Downloaded  148.8KB/148.8KB
+✔︎ Bottle libogg (1.3.6)                                                                                                                               Downloaded  234.7KB/234.7KB
+✔︎ Bottle svt-av1 (4.3.0)                                                                                                                              Downloaded    1.4MB/  1.4MB
+✔︎ Bottle sdl3 (3.4.20)                                                                                                                                Downloaded    1.6MB/  1.6MB
+✔︎ Bottle opusfile (0.12_3)                                                                                                                            Downloaded  102.5KB/102.5KB
+✔︎ Bottle x264 (r3222)                                                                                                                                 Downloaded    2.0MB/  2.0MB
+✔︎ Bottle x265 (4.3)                                                                                                                                   Downloaded    5.6MB/  5.6MB
+✔︎ Bottle ncurses (6.6)                                                                                                                                Downloaded    2.5MB/  2.5MB
+✔︎ Bottle ffmpeg (9.0.2_1)                                                                                                                             Downloaded   21.7MB/ 21.7MB
+✔︎ Bottle openssl@4 (4.1.0)                                                                                                                            Downloaded   11.5MB/ 11.5MB
+==> Upgrading cmus
+  2.12.0_1 -> 2.13.0
+==> Installing dependencies for cmus: faad2 ↑, dav1d ↑, mpg123 ↑, lame ↑, libvmaf ↑, libvpx ↑, ca-certificates ↑, openssl@4, opus ↑, sdl3, sdl2-compat ↑, svt-av1 ↑, x264 ↑, x265 ↑, ffmpeg ↑, libogg ↑, mad ↑, ncurses ↑ and opusfile ↑
+==> Upgrading cmus dependency: faad2 (2.11.1 -> 2.11.4)
+==> Pouring faad2--2.11.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/faad2/2.11.4: 18 files, 624.1KB
+==> Upgrading cmus dependency: dav1d (1.5.1 -> 1.5.4)
+==> Pouring dav1d--1.5.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.4: 16 files, 976KB
+==> Upgrading cmus dependency: mpg123 (1.32.10 -> 1.33.7)
+==> Pouring mpg123--1.33.7.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.7: 34 files, 1.9MB
+==> Upgrading cmus dependency: lame (3.100 -> 4.0)
+==> Pouring lame--4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lame/4.0: 29 files, 1.9MB
+==> Upgrading cmus dependency: libvmaf (3.0.0 -> 3.2.1)
+==> Pouring libvmaf--3.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.2.1: 243 files, 8.2MB
+==> Upgrading cmus dependency: libvpx (1.15.1 -> 1.17.0)
+==> Pouring libvpx--1.17.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libvpx/1.17.0: 22 files, 4.4MB
+==> Upgrading cmus dependency: ca-certificates (2026-09-25 -> 2026-11-05)
+==> Pouring ca-certificates--2026-11-05.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-11-05: 5 files, 196.1KB
+==> Installing cmus dependency: openssl@4 (4.1.0)
+==> Pouring openssl@4--4.1.0.arm64_sequoia.bottle.tar.gz
+Unlinking /opt/homebrew/Cellar/openssl@3/3.6.4... 6570 symlinks removed.
+k🍺  /opt/homebrew/Cellar/openssl@4/4.1.0: 6,869 files, 24.6MB
+==> Upgrading cmus dependency: opus (1.5.2 -> 1.6.1)
+==> Pouring opus--1.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/opus/1.6.1: 16 files, 1.1MB
+==> Installing cmus dependency: sdl3 (3.4.20)
+==> Pouring sdl3--3.4.20.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.20: 103 files, 6.3MB
+==> Upgrading cmus dependency: sdl2-compat (2.32.74)
+==> Pouring sdl2-compat--2.32.74.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2-compat/2.32.74: 117 files, 3.3MB
+==> Upgrading cmus dependency: svt-av1 (3.0.2 -> 4.3.0)
+==> Pouring svt-av1--4.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.3.0: 23 files, 3.4MB
+==> Upgrading cmus dependency: x264 (r3108 -> r3222)
+==> Pouring x264--r3222.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x264/r3222: 12 files, 4.4MB
+==> Upgrading cmus dependency: x265 (4.1 -> 4.3)
+==> Pouring x265--4.3.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/x265/4.3: 12 files, 17.4MB
+==> Upgrading cmus dependency: ffmpeg (7.1.1_2 -> 9.0.2_1)
+==> Pouring ffmpeg--9.0.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/9.0.2_1: 290 files, 54.4MB
+==> Upgrading cmus dependency: libogg (1.3.5 -> 1.3.6)
+==> Pouring libogg--1.3.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libogg/1.3.6: 103 files, 531.8KB
+==> Upgrading cmus dependency: mad (0.15.1b -> 0.16.5)
+==> Pouring mad--0.16.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mad/0.16.5: 19 files, 356.2KB
+==> Upgrading cmus dependency: ncurses (6.5 -> 6.6)
+==> Pouring ncurses--6.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncurses/6.6: 4,086 files, 10.3MB
+==> Upgrading cmus dependency: opusfile (0.12_1 -> 0.12_3)
+==> Pouring opusfile--0.12_3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/opusfile/0.12_3: 18 files, 327.6KB
+==> Installing cmus
+==> Pouring cmus--2.13.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cmus/2.13.0: 40 files, 1.1MB
+==> Cleanup
+Removing: /opt/homebrew/Cellar/cmus/2.12.0_1... (41 files, 1.4MB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Upgraded 1 requested outdated package
+cmus 2.12.0_1 -> 2.13.0
+
+$ cmus
+cmus: Error: no such option input.mp4.priority
+cmus: Press <enter> to continue.
